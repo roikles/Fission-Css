@@ -1,0 +1,65 @@
+////
+// Colors
+// 
+// Color variables are defined here.
+// - color (.c(x))
+// - background  (.bg(x))
+// - border  (.bd(x))
+// - fill (.fill(x))
+// - stroke (.st(x))
+// - outline (maybe) (.ol(x))
+// - shadow color (maybe) (.sh(x))
+////
+
+$colors: (
+    navy: #204384,
+    light_blue: #2bc9f1,
+    green: #7ec337,
+    yellow: #fffc00,
+    orange: #f15a2b,
+    grey: #ccc,
+    light_grey: #f1f2f2,
+    white: #fff
+);
+
+////
+// Colors Mixin
+// 
+// Takes 2 arguments:
+// colors - this takes a Sass map (key value pair)
+//          of  color-name and color value (hex,rgb etc)
+// breakpoint - this takes a variable for the breakpoint
+//              e.g. $m, $l
+////
+@mixin color($colors: null,$bp: null){
+    @each $name, $clr in $colors{
+        // Color
+        .c-#{$name}#{$bp}{
+            color: $clr;
+        }
+
+        // Background Color
+        .bg-#{$name}#{$bp}{
+            background-color: $clr;
+        }
+
+        // Border color
+        .bd-#{$name}#{$bp}{
+            border-color: $clr;
+        }
+    }
+}
+
+// Load the Color Mixin
+@include color($colors);
+
+// Load the Color Mixin at the medium media query breakpoint
+/*@include bp($m){
+    @include color($colors,-m);
+}*/
+
+// Load the Color Mixin at the large media query breakpoint
+/*@include bp($l){
+    @include color($colors,-l);
+}*/
+

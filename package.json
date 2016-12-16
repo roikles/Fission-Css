@@ -1,0 +1,25 @@
+{
+  "name": "FlexbonesBuild",
+  "version": "5.0.0",
+  "description": "Watch sass,js and deploy",
+  "author": "Rory Ashford <rory@roikles.com>",
+  "scripts": {
+    "sass:css": "node-sass src/style.scss src/style.css --output-style expanded",
+    "sass:postcss": "postcss --use autoprefixer -o style.css style.css",
+    "sass:cssnano": "cssnano src/style.css src/style.css --no-autoprefixer --no-convertValues",
+    "sass": "npm run -s sass:css && npm run -s sass:postcss && npm run -s sass:cssnano",
+    "watch:sass": "fsmonitor -d ./ -q '+*.scss, +**/*.scss' npm run -s sass",
+    "browsersync": "browser-sync start --files 'src/*, !/**/*.scss, !.git/*, src/**/*' --no-open --proxy localhost/fcss",
+    "watch": "npm run -s browsersync & npm run -s watch:sass"
+  },
+  "devDependencies": {
+    "cssnano": "^3.4.0",
+    "cssnano-cli": "^1.0.3",
+    "fsmonitor": "^0.2.4",
+    "node-sass": "^3.4.2",
+    "postcss-cli": "^2.3.2"
+  },
+  "dependencies": {
+    "Gridtacular": "^2.0.3"
+  }
+}

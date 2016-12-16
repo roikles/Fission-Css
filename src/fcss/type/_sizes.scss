@@ -1,0 +1,36 @@
+////
+// Font Sizes
+////
+
+$font_size_1: 11.0rem; // biggest
+$font_size_2: 7.8rem;
+$font_size_3: 5.6rem;
+$font_size_4: 4.0rem;
+$font_size_5: 3.2rem;
+$font_size_6: 2.4rem;
+$font_size_7: 1.6rem;
+$font_size_8: 1.4rem; // smallest
+
+@mixin font_size($bp: null){
+    .fs1#{$bp}{ font-size: $font_size_1; }
+    .fs2#{$bp}{ font-size: $font_size_2; }
+    .fs3#{$bp}{ font-size: $font_size_3; }
+    .fs4#{$bp}{ font-size: $font_size_4; }
+    .fs5#{$bp}{ font-size: $font_size_5; }
+    .fs6#{$bp}{ font-size: $font_size_6; }
+    .fs7#{$bp}{ font-size: $font_size_7; }
+    .fs8#{$bp}{ font-size: $font_size_8; }
+}
+
+// Load the Margin Mixin
+@include font_size();
+
+// Load the Margin Mixin at the medium media query breakpoint
+@include bp($m){
+    @include font_size(-m);
+}
+
+// Load the Margin Mixin at the large media query breakpoint
+@include bp($l){
+    @include font_size(-l);
+}

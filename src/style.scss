@@ -1,0 +1,34 @@
+////
+// Global Configuration
+////
+@import "fcss/__base";
+
+////
+// Tools
+// 
+// Mixins, functions and configs that generally dont produce output
+////
+@import "fcss/tools/_clearfix";
+@import "fcss/tools/_breakpoint";
+@import "fcss/tools/_rem";
+@import "fcss/tools/_aspect-ratios";
+@import "node_modules/Gridtacular/src/_gridtacular";
+
+////
+// Library/ Framework (who even knows which is which anymore)
+////
+
+@import "fcss/background/_position";
+@import "fcss/background/_size";
+@import "fcss/border/_style";
+@import "fcss/border/_width";
+@import "fcss/color/_colors";
+@import "fcss/display/_display";
+@import "fcss/spacing/_margin";
+@import "fcss/spacing/_padding";
+@import "fcss/type/_decoration";
+@import "fcss/type/_family";
+@import "fcss/type/_sizes";
+@import "fcss/type/_style";
+@import "fcss/type/_transform";
+@import "fcss/type/_weight";

@@ -1,0 +1,108 @@
+////
+// Margin
+// 
+// Class prefix for margin = .m
+// 
+// - t = top
+// - r = right
+// - b = bottom
+// - l = left
+// - x = left and right
+// - y = top and bottom
+////
+
+////
+// Temporary variables
+// 
+// Will be replaced once the framework has matured
+////
+$m0: 0;
+$m1: 1rem;
+$m2: 2rem;
+$m3: 3rem;
+$m4: 4rem;
+$m5: 5rem;
+
+////
+// Margin Mixin
+// All rules are set with a mixin so that this file
+// is kept to a minimul size
+// 
+// $bp =  breakpoint suffix. e.g. '-m' or '-l'
+////
+@mixin margin($bp: null){
+    // Margin
+    .m0#{$bp}{ margin: $m0; }
+    .m1#{$bp}{ margin: $m1; }
+    .m2#{$bp}{ margin: $m2; }
+    .m3#{$bp}{ margin: $m3; }
+    .m4#{$bp}{ margin: $m4; }
+    .m5#{$bp}{ margin: $m5; }
+    .mauto#{$bp}{ margin: 0 auto; }
+
+    // Margin Top
+    .mt0#{$bp}{ margin-top: $m0; }
+    .mt1#{$bp}{ margin-top: $m1; }
+    .mt2#{$bp}{ margin-top: $m2; }
+    .mt3#{$bp}{ margin-top: $m3; }
+    .mt4#{$bp}{ margin-top: $m4; }
+    .mt5#{$bp}{ margin-top: $m5; }
+
+    // Margin Right
+    .mr0#{$bp}{ margin-right: $m0; }
+    .mr1#{$bp}{ margin-right: $m1; }
+    .mr2#{$bp}{ margin-right: $m2; }
+    .mr3#{$bp}{ margin-right: $m3; }
+    .mr4#{$bp}{ margin-right: $m4; }
+    .mr5#{$bp}{ margin-right: $m5; }
+
+    // Margin Bottom
+    .mb0#{$bp}{ margin-bottom: $m0; }
+    .mb1#{$bp}{ margin-bottom: $m1; }
+    .mb2#{$bp}{ margin-bottom: $m2; }
+    .mb3#{$bp}{ margin-bottom: $m3; }
+    .mb4#{$bp}{ margin-bottom: $m4; }
+    .mb5#{$bp}{ margin-bottom: $m5; }
+
+    // Margin Left
+    .ml0#{$bp}{ margin-left: $m0; }
+    .ml1#{$bp}{ margin-left: $m1; }
+    .ml2#{$bp}{ margin-left: $m2; }
+    .ml3#{$bp}{ margin-left: $m3; }
+    .ml4#{$bp}{ margin-left: $m4; }
+    .ml5#{$bp}{ margin-left: $m5; }
+
+    // Margin X (Left and Right)
+    .mx0#{$bp}{ margin: 0 $m0; }
+    .mx1#{$bp}{ margin: 0 $m1; }
+    .mx2#{$bp}{ margin: 0 $m2; }
+    .mx3#{$bp}{ margin: 0 $m3; }
+    .mx4#{$bp}{ margin: 0 $m4; }
+    .mx5#{$bp}{ margin: 0 $m5; }
+
+    // Margin Y (Top and Bottom)
+    .my0#{$bp}{ margin: $m0 0; }
+    .my1#{$bp}{ margin: $m1 0; }
+    .my2#{$bp}{ margin: $m2 0; }
+    .my3#{$bp}{ margin: $m3 0; }
+    .my4#{$bp}{ margin: $m4 0; }
+    .my5#{$bp}{ margin: $m5 0; }
+
+    // Auto Margins
+    .mxauto{ margin-left: auto; margin-right: auto; }
+    .mlauto{ margin-left: auto; }
+    .mrauto{ margin-right: auto; }
+}
+
+// Load the Margin Mixin
+@include margin();
+
+// Load the Margin Mixin at the medium media query breakpoint
+@include bp($m){
+    @include margin(-m);
+}
+
+// Load the Margin Mixin at the large media query breakpoint
+@include bp($l){
+    @include margin(-l);
+}

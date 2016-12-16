@@ -1,0 +1,39 @@
+////
+// Base
+// Variables and setup
+// 
+////
+
+////
+// Media Queries
+////
+
+// Small
+$mq_small_min:          null;
+$mq_small_max:          null;
+
+$s: $mq_small_min $mq_small_max;
+
+// Medium
+$mq_medium_min:         800px;
+$mq_medium_max:         null;
+$m: $mq_medium_min $mq_medium_max;
+
+// Large
+$mq_large_min:          1000px;
+$mq_large_max:          null;
+
+$l: $mq_large_min $mq_large_max;
+
+// Extra Large
+$mq_extralarge_min:     1400px;
+$mq_extralarge_max:     null;
+
+$xl: $mq_extralarge_min $mq_extralarge_max;
+
+////
+// Font families
+////
+
+$heading_font:          'Lato', Helvetica, Arial, sans-serif;
+$body_font:             $heading_font;

@@ -1,0 +1,29 @@
+////
+// Position
+// 
+// Class prefix for position = .pos-
+// 
+// - Static
+// - Relative
+// - Absolute
+// - Fixed
+////
+
+.pos-st{ position: static; }
+.pos-rel{ position: relative; }
+.pos-abs{ position: absolute; }
+.pos-fxd{ position: fixed; }
+
+@include at-breakpoint($m){
+    .pos-st{ position: static; }
+    .pos-rel{ position: relative; }
+    .pos-abs{ position: absolute; }
+    .pos-fxd{ position: fixed; }
+}
+
+@include at-breakpoint($l){
+    .pos-st{ position: static; }
+    .pos-rel{ position: relative; }
+    .pos-abs{ position: absolute; }
+    .pos-fxd{ position: fixed; }
+}
