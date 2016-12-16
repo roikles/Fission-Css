@@ -2,14 +2,14 @@
 // Font Sizes
 ////
 
-$font_size_1: 11.0rem; // biggest
-$font_size_2: 7.8rem;
-$font_size_3: 5.6rem;
-$font_size_4: 4.0rem;
+$font_size_1: 6.8rem; // biggest
+$font_size_2: 4.8rem;
+$font_size_3: 3.5rem;
+$font_size_4: 2.5rem;
 $font_size_5: 3.2rem;
-$font_size_6: 2.4rem;
-$font_size_7: 1.6rem;
-$font_size_8: 1.4rem; // smallest
+$font_size_6: 2rem;
+$font_size_7: 1rem;
+$font_size_8: 0.875rem; // smallest
 
 @mixin font_size($bp: null){
     .fs1#{$bp}{ font-size: $font_size_1; }
