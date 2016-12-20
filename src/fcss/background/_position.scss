@@ -1,29 +1,28 @@
 ////
-// Position
+// Background Position
 // 
-// Class prefix for position = .pos-
+// Class prefix for background position = .bgp-
 // 
-// - Static
-// - Relative
-// - Absolute
-// - Fixed
 ////
 
-.pos-st{ position: static; }
-.pos-rel{ position: relative; }
-.pos-abs{ position: absolute; }
-.pos-fxd{ position: fixed; }
-
-@include at-breakpoint($m){
-    .pos-st{ position: static; }
-    .pos-rel{ position: relative; }
-    .pos-abs{ position: absolute; }
-    .pos-fxd{ position: fixed; }
+@mixin background_position($bp: null){
+    .bgp-lt{ background-position: left top; }
+    .bgp-lc{ background-position: left center; }
+    .bgp-lb{ background-position: left bottom; }
+    .bgp-rt{ background-position: right top; }
+    .bgp-rc{ background-position: right center; }
+    .bgp-rb{ background-position: right bottom; }
+    .bgp-ct{ background-position: center top; }
+    .bgp-cc{ background-position: center center; }
+    .bgp-cb{ background-position: center bottom; }
 }
 
-@include at-breakpoint($l){
-    .pos-st{ position: static; }
-    .pos-rel{ position: relative; }
-    .pos-abs{ position: absolute; }
-    .pos-fxd{ position: fixed; }
+@include background_position(); 
+
+@include bp($m){
+    @include background_position($m); 
+}
+
+@include bp($l){
+    @include background_position($l); 
 }

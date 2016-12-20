@@ -1,6 +1,24 @@
 ////
-// Text Size
+// Background Size
 // 
-// Text sizes are defined here
+// Class prefix for size = .bgs
+// 
+// - 
 ////
+
+@mixin bg_size($bp: null){
+    .bgs-a#{$bp}{ background-size: auto; }
+    .bgs-cv#{$bp}{ background-size: cover; }
+    .bgs-c#{$bp}{ background-size: contain; }
+}
+
+@include bg_size();
+
+@include bp($m){
+    @include bg_size($m);
+}
+
+@include bp($l){
+    @include bg_size($l);
+}
 
