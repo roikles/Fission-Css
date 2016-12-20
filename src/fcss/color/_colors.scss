@@ -12,14 +12,16 @@
 ////
 
 $colors: (
-    navy: #204384,
-    light_blue: #2bc9f1,
-    green: #7ec337,
-    yellow: #fffc00,
-    orange: #f15a2b,
+    white: #fff,
     grey: #ccc,
-    light_grey: #f1f2f2,
-    white: #fff
+    black: #000,
+    red: #ee3124,
+    orange: #ee6724,
+    yellow: #ecee24,
+    green: #5eba2c,
+    blue: #1486c7,
+    indigo: #273aad,
+    violet: #4c2cb3
 );
 
 ////
@@ -37,12 +39,17 @@ $colors: (
         .c-#{$name}#{$bp}{
             color: $clr;
         }
+    }
 
+    @each $name, $clr in $colors{
         // Background Color
         .bg-#{$name}#{$bp}{
             background-color: $clr;
         }
 
+    }
+
+    @each $name, $clr in $colors{
         // Border color
         .bd-#{$name}#{$bp}{
             border-color: $clr;
@@ -54,12 +61,12 @@ $colors: (
 @include color($colors);
 
 // Load the Color Mixin at the medium media query breakpoint
-/*@include bp($m){
+@include bp($m){
     @include color($colors,-m);
-}*/
+}
 
 // Load the Color Mixin at the large media query breakpoint
-/*@include bp($l){
+@include bp($l){
     @include color($colors,-l);
-}*/
+}
 

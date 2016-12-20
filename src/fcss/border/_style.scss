@@ -3,3 +3,19 @@
 // 
 // Border styles here
 ////
+
+@mixin border_style($bp: null){
+    .bd-dot#{$bp}{ border-style: dotted; }
+    .bd-dash#{$bp}{ border-style: dashed; }
+    .bd-solid#{$bp}{ border-style: solid; }
+}
+
+@include border_style();
+
+@include bp($m){
+    @include border_style(-m);
+}
+
+@include bp($l){
+    @include border_style(-l);
+}

@@ -3,3 +3,25 @@
 // 
 // Color variables are defined here.
 ////
+
+$bw1: rem(0.5);
+$bw2: rem(1);
+$bw3: rem(2);
+$bw4: rem(4);
+
+@mixin border_width($bp: null){
+    .bd1#{$bp}{ border-width: $bw1 }
+    .bd2#{$bp}{ border-width: $bw2; }
+    .bd3#{$bp}{ border-width: $bw3; }
+    .bd4#{$bp}{ border-width: $bw4; }
+}
+
+@include border_style();
+
+@include bp($m){
+    @include border_style(-m);
+}
+
+@include bp($l){
+    @include border_style(-l);
+}

@@ -13,6 +13,11 @@ Margin Section
 
 <div class="wrapper">
 
+    <h1 class="fs3 mb1">Colors</h1>
+    <p>Color classes are created from an array of colours in Sass. they are outputted to color, background-color and border properties.</p>
+
+    <?php include('parts/color.php'); ?>
+
     <h1 class="fs3 mb1">Spacing</h1>
     <p>Spacing classes set classes for <strong>margin</strong> and <strong>padding</strong>. There are specific rules for top, right, bottom and left values exclusively and also for x-axis (left and right) and y-axis (top and bottom).</p>
 
@@ -25,6 +30,10 @@ Margin Section
     <?php include('parts/background-position.php'); ?>
     <?php include('parts/background-repeat.php'); ?>
     <?php include('parts/background-size.php'); ?>
+
+
+
+    
 </div>
 
 </body>

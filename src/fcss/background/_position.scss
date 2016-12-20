@@ -6,7 +6,7 @@
 ////
 
 @mixin background_position($bp: null){
-    .bgp-lt{ background-position: left top; }
+    .bgp-lt#{$bp}{ background-position: left top; }
     .bgp-lc{ background-position: left center; }
     .bgp-lb{ background-position: left bottom; }
     .bgp-rt{ background-position: right top; }
@@ -20,9 +20,9 @@
 @include background_position(); 
 
 @include bp($m){
-    @include background_position($m); 
+    @include background_position(-m); 
 }
 
 @include bp($l){
-    @include background_position($l); 
+    @include background_position(-l); 
 }
