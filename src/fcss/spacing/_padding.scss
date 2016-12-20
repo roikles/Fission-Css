@@ -1,0 +1,103 @@
+////
+// padding
+// 
+// Class prefix for padding = .m
+// 
+// - t = top
+// - r = right
+// - b = bottom
+// - l = left
+// - x = left and right
+// - y = top and bottom
+////
+
+////
+// Temporary variables
+// 
+// Will be replaced once the framework has matured
+////
+$p0: 0;
+$p1: 1rem;
+$p2: 2rem;
+$p3: 3rem;
+$p4: 4rem;
+$p5: 5rem;
+
+////
+// Padding Mixin
+// All rules are set with a mixin so that this file
+// is kept to a minimul size
+// 
+// $bp =  breakpoint suffix. e.g. '-m' or '-l'
+////
+@mixin padding($bp: null){
+    // Padding
+    .p0#{$bp}{ padding: $m0; }
+    .p1#{$bp}{ padding: $m1; }
+    .p2#{$bp}{ padding: $m2; }
+    .p3#{$bp}{ padding: $m3; }
+    .p4#{$bp}{ padding: $m4; }
+    .p5#{$bp}{ padding: $m5; }
+    .pauto#{$bp}{ padding: 0 auto; }
+
+    // Padding Top
+    .pt0#{$bp}{ padding-top: $m0; }
+    .pt1#{$bp}{ padding-top: $m1; }
+    .pt2#{$bp}{ padding-top: $m2; }
+    .pt3#{$bp}{ padding-top: $m3; }
+    .pt4#{$bp}{ padding-top: $m4; }
+    .pt5#{$bp}{ padding-top: $m5; }
+
+    // Padding Right
+    .pr0#{$bp}{ padding-right: $m0; }
+    .pr1#{$bp}{ padding-right: $m1; }
+    .pr2#{$bp}{ padding-right: $m2; }
+    .pr3#{$bp}{ padding-right: $m3; }
+    .pr4#{$bp}{ padding-right: $m4; }
+    .pr5#{$bp}{ padding-right: $m5; }
+
+    // Padding Bottom
+    .pb0#{$bp}{ padding-bottom: $m0; }
+    .pb1#{$bp}{ padding-bottom: $m1; }
+    .pb2#{$bp}{ padding-bottom: $m2; }
+    .pb3#{$bp}{ padding-bottom: $m3; }
+    .pb4#{$bp}{ padding-bottom: $m4; }
+    .pb5#{$bp}{ padding-bottom: $m5; }
+
+    // padding Left
+    .pl0#{$bp}{ padding-left: $m0; }
+    .pl1#{$bp}{ padding-left: $m1; }
+    .pl2#{$bp}{ padding-left: $m2; }
+    .pl3#{$bp}{ padding-left: $m3; }
+    .pl4#{$bp}{ padding-left: $m4; }
+    .pl5#{$bp}{ padding-left: $m5; }
+
+    // padding X (Left and Right)
+    .px0#{$bp}{ padding: 0 $m0; }
+    .px1#{$bp}{ padding: 0 $m1; }
+    .px2#{$bp}{ padding: 0 $m2; }
+    .px3#{$bp}{ padding: 0 $m3; }
+    .px4#{$bp}{ padding: 0 $m4; }
+    .px5#{$bp}{ padding: 0 $m5; }
+
+    // Padding Y (Top and Bottom)
+    .py0#{$bp}{ padding: $m0 0; }
+    .py1#{$bp}{ padding: $m1 0; }
+    .py2#{$bp}{ padding: $m2 0; }
+    .py3#{$bp}{ padding: $m3 0; }
+    .py4#{$bp}{ padding: $m4 0; }
+    .py5#{$bp}{ padding: $m5 0; }
+}
+
+// Load the padding Mixin
+@include padding();
+
+// Load the padding Mixin at the medium media query breakpoint
+@include bp($m){
+    @include padding(-m);
+}
+
+// Load the padding Mixin at the large media query breakpoint
+@include bp($l){
+    @include padding(-l);
+}
