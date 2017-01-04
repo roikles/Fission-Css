@@ -11,7 +11,6 @@ $h10: 10%;
 $h20: 20%;
 $h25: 25%;
 $h30: 30%;
-$h33: 33.3333333333%; // not sure about this...
 $h40: 40%;
 $h50: 50%;
 $h60: 60%;
@@ -27,7 +26,6 @@ $h100: 100%;
     .h20#{$bp}{ height: $h20; }
     .h25#{$bp}{ height: $h25; }
     .h30#{$bp}{ height: $h30; }
-    .h33#{$bp}{ height: $h33; }
     .h40#{$bp}{ height: $h40; }
     .h50#{$bp}{ height: $h50; }
     .h60#{$bp}{ height: $h60; }

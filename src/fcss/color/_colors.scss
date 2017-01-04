@@ -11,6 +11,11 @@
 // - shadow color (maybe) (.sh(x))
 ////
 
+// Brand colors
+$brand-grey: #ebedef;
+$brand-red: #f96869;
+$brand-blue: #062442;
+
 $colors: (
     white: #fff,
     grey: #ccc,
@@ -23,9 +28,9 @@ $colors: (
     indigo: #273aad,
     violet: #4c2cb3,
     // Only for docs
-    brand-grey: #ebedef,
-    brand-red: #f96869,
-    brand-blue: #062442
+    brand-grey: $brand-grey,
+    brand-red: $brand-red,
+    brand-blue: $brand-blue
 );
 
 ////

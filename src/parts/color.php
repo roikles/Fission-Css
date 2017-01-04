@@ -1,4 +1,7 @@
-<h3 class="fs6 fw-l my2">Colors</h3>
+<h1 id="color" class="fs5 mb2 bd-b c-brand-blue">Colors</h1>
+<p>Color classes are created from an array of colours in Sass. they are outputted to color, background-color and border properties.</p>
+
+<h3 class="fs4 fw-l">Color Palette</h3>
 
 <div class="g  g--no-gutter--m  g--no-gutter--l">
     <div class="gi--1-1  gi--1-3--m">
@@ -72,7 +75,7 @@
     </div>
 </div>
 
-<h3 class="fs6 fw-l my2">Text Colors</h3>
+<h3 class="fs4 fw-l">Text Colors</h3>
 
 <p>There are several base colors in Fission but as with everything we encourage you to replace them with your own. As with most other elements in Fission you can use breakpoint suffixes. E.g. <code class="language-css">.c-black-m</code> or <code class="language-css"> .c-red-l</code></p>
 
@@ -133,7 +136,7 @@
 </table>
 
 
-<h3 class="fs6 fw-l my2">Background Colors</h3>
+<h3 class="fs4 fw-l">Background Colors</h3>
 
 <pre><code class="language-markup"><!--<p class="bg-{color name}"></p>--></code></pre>
 
@@ -181,7 +184,7 @@
 </table>
 
 
-<h3 class="fs6 fw-l my2">Border Colors</h3>
+<h3 class="fs4 fw-l">Border Colors</h3>
 
 <table>
     <tr>
@@ -226,12 +229,3 @@
     </tr>
 
 </table>
-
-
-
-
-
-
-
-
-

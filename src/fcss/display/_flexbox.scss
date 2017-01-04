@@ -40,10 +40,16 @@
     .fl-self-baseline#{$bp}{ align-self: baseline; }
     .fl-self-stretch#{$bp}{ align-self: stretch; }
 
+    // Self grow/shrink
+
+    .fl-self-grow{ flex-grow: 1; }
+    .fl-self-shrink{ flex-shrink: 1; }
+
     // Justify
 
     .fl-justify-start#{$bp}{ justify-content: start; }
     .fl-justify-end#{$bp}{ justify-content: end; }
+    .fl-justify-center#{$bp}{ justify-content: center; }
     .fl-justify-between#{$bp}{ justify-content: between; }
     .fl-justify-around#{$bp}{ justify-content: around; }
 
