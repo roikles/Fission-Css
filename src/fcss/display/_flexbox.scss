@@ -4,12 +4,90 @@
 // Layout made easier(ish) with Flexbox
 ////
 
-////
-// Container
-// 
-// classes that should *only* be appled to a flex box container
-////
 
-.f{ display: flex; }
-.fd-r{ flex-direction: row; }
-.fd-c{ flex-direction: column; }
+@mixin flexbox($bp: null){
+
+    // Flex 
+
+    .fl#{$bp}{ display: flex; }
+    .fl-init#{$bp}{ flex: 0 1 auto; } // same as flex: initial
+    .fl-none#{$bp}{ flex: 0 0 auto; } //items sized according to width/height but inflexible.
+
+    // Direction
+
+    .fl-row#{$bp}{ flex-direction: row; }
+    .fl-col#{$bp}{ flex-direction: column; }
+
+    // Wrapping
+
+    .fl-wrap#{$bp}{ flex-wrap: wrap; }
+    .fl-nowrap#{$bp}{ flex-wrap: nowrap; }
+    .fl-wrapreverse#{$bp}{ flex-wrap: wrap-reverse; } // class name is a bit long here
+
+    // Child Item Alignment
+
+    .fl-start#{$bp}{ align-items: flex-start; }
+    .fl-end#{$bp}{ align-items: flex-end; }
+    .fl-center#{$bp}{ align-items: center; }
+    .fl-baseline#{$bp}{ align-items: baseline; }
+    .fl-stretch#{$bp}{ align-items: stretch; }
+
+    // Self Alignment
+
+    .fl-self-start#{$bp}{ align-self: flex-start; }
+    .fl-self-end#{$bp}{ align-self: flex-end; }
+    .fl-self-center#{$bp}{ align-self: center; }
+    .fl-self-baseline#{$bp}{ align-self: baseline; }
+    .fl-self-stretch#{$bp}{ align-self: stretch; }
+
+    // Justify
+
+    .fl-justify-start#{$bp}{ justify-content: start; }
+    .fl-justify-end#{$bp}{ justify-content: end; }
+    .fl-justify-between#{$bp}{ justify-content: between; }
+    .fl-justify-around#{$bp}{ justify-content: around; }
+
+    // Align content along the vertical axis (need to test how this is afffected by flex direction)
+
+    .fl-content-start#{$bp}{ align-content: flex-start; }
+    .fl-content-end#{$bp}{ align-content: flex-end; }
+    .fl-content-center#{$bp}{ align-content: center; }
+    .fl-content-between#{$bp}{ align-content: space-between; }
+    .fl-content-around#{$bp}{ align-content: space-around; }
+    .fl-content-stretch#{$bp}{ align-content: stretch; } 
+
+    // Ordering
+    .fl-order-0#{$bp}{ order: 0; }
+    .fl-order-1#{$bp}{ order: 1; }
+    .fl-order-2#{$bp}{ order: 2; }
+    .fl-order-3#{$bp}{ order: 3; }
+    .fl-order-4#{$bp}{ order: 4; }
+    .fl-order-5#{$bp}{ order: 5; }
+    .fl-order-6#{$bp}{ order: 6; }
+    .fl-order-7#{$bp}{ order: 7; }
+    .fl-order-8#{$bp}{ order: 8; }
+    .fl-order-9#{$bp}{ order: 9; }
+    .fl-order-10#{$bp}{ order: 10; }
+    .fl-order-11#{$bp}{ order: 11; }
+    .fl-order-12#{$bp}{ order: 12; }
+
+    // First / Last ordering
+    .fl-order-first#{$bp}{ order: 0; }
+    .fl-order-last#{$bp}{ order: 999999; }
+
+}
+
+// Load the Flexbox Mixin
+@include flexbox();
+
+// Load the Flexbox Mixin at the medium media query breakpoint
+@include bp($m){
+    @include flexbox(-m);
+}
+
+// Load the Flexbox Mixin at the large media query breakpoint
+@include bp($l){
+    @include flexbox(-l);
+}
+
+

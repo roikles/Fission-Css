@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="prism.css">
 <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,400i,700,700i|Lato:300,300i,400,400i,700,700i|Space+Mono:400,400i,700,700i" rel="stylesheet">
 <script src="js/prism.js"></script>
 </head>
