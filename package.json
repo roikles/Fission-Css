@@ -4,10 +4,10 @@
   "description": "Watch sass,js and deploy",
   "author": "Rory Ashford <rory@roikles.com>",
   "scripts": {
-    "sass:css": "node-sass src/style.scss src/style.css --output-style expanded",
-    "sass:postcss": "postcss --use autoprefixer -o style.css style.css",
-    "sass:cssnano": "cssnano src/style.css src/style.css --no-autoprefixer --no-convertValues",
-    "sass": "npm run -s sass:css && npm run sass:cssnano",
+    "sass:css": "node-sass src/style.scss src/style.css --output-style compact",
+    "sass:postcss": "postcss --use autoprefixer -o style.css style.min.css",
+    "sass:cssnano": "cssnano src/style.min.css src/style.min.css --no-autoprefixer --no-convertValues",
+    "sass": "npm run -s sass:css && npm run postcss && npm run sass:cssnano",
     "watch:sass": "fsmonitor -d src -q '+*.scss' npm run sass",
     "browsersync": "browser-sync start --files 'src/*, !/**/*.scss, !.git/*, src/**/*' --no-open --proxy localhost/fissioncss",
     "watch": "npm run -s browsersync & npm run -s watch:sass"
