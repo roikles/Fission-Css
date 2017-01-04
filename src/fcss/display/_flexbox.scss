@@ -1,0 +1,15 @@
+////
+// Flexbox
+// 
+// Layout made easier(ish) with Flexbox
+////
+
+////
+// Container
+// 
+// classes that should *only* be appled to a flex box container
+////
+
+.f{ display: flex; }
+.fd-r{ flex-direction: row; }
+.fd-c{ flex-direction: column; }

@@ -1,0 +1,48 @@
+////
+// Width
+// 
+// Some generic width classes
+// 
+// Class prefix for width = .w
+////
+
+$w10: 10%;
+$w20: 20%;
+$w25: 25%;
+$w30: 30%;
+$w33: 33.3333333333%; // not sure about this...
+$w40: 40%;
+$w50: 50%;
+$w60: 60%;
+$w70: 70%;
+$w75: 75%;
+$w80: 80%;
+$w90: 90%;
+$w100: 100%;
+
+@mixin width_percentage($bp: null){
+    // Margin
+    .w10#{$bp}{ width: $w10; }
+    .w20#{$bp}{ width: $w20; }
+    .w25#{$bp}{ width: $w25; }
+    .w30#{$bp}{ width: $w30; }
+    .w33#{$bp}{ width: $w33; }
+    .w40#{$bp}{ width: $w40; }
+    .w50#{$bp}{ width: $w50; }
+    .w60#{$bp}{ width: $w60; }
+    .w70#{$bp}{ width: $w70; }
+    .w75#{$bp}{ width: $w75; }
+    .w80#{$bp}{ width: $w80; }
+    .w90#{$bp}{ width: $w90; }
+    .w100#{$bp}{ width: $w100; }
+}
+
+@include width_percentage();
+
+@include bp($m){
+    @include width_percentage(-m);
+}
+
+@include bp($l){
+    @include width_percentage(-l);
+}

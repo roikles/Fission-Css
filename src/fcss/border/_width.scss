@@ -1,7 +1,6 @@
 ////
-// Border Style
+// Border Width
 // 
-// Color variables are defined here.
 ////
 
 $bw1: rem(0.5);
@@ -16,12 +15,12 @@ $bw4: rem(4);
     .bd4#{$bp}{ border-width: $bw4; }
 }
 
-@include border_style();
+@include border_width();
 
 @include bp($m){
-    @include border_style(-m);
+    @include border_width(-m);
 }
 
 @include bp($l){
-    @include border_style(-l);
+    @include border_width(-l);
 }
