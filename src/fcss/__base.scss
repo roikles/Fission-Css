@@ -8,40 +8,6 @@
 // Media Queries
 ////
 
-// Small
 $s: null null;
-
-// Medium
-$mq_medium_min:         800px;
-$mq_medium_max:         null;
-$m: $mq_medium_min $mq_medium_max;
-
-// Large
-$mq_large_min:          1000px;
-$mq_large_max:          null;
-$l: $mq_large_min $mq_large_max;
-
-// Extra Large
-$mq_extralarge_min:     1400px;
-$mq_extralarge_max:     null;
-$xl: $mq_extralarge_min $mq_extralarge_max;
-
-////
-// Document setup/reset. 
-// 
-// This needs to be thought out and approached Atomiclly but for now
-// this will do...I guess.
-////
-
-*{
-    margin: 0;
-    padding: 0;
-}
-
-// Temp wrapper class FIX PLZ
-
-.wrapper{
-    margin: 0 auto;
-    width: 90%;
-    max-width: 900px;
-}
+$m: 800px null;
+$l: 1000px null;

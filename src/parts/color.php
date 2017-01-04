@@ -3,71 +3,71 @@
 <div class="g  g--no-gutter--m  g--no-gutter--l">
     <div class="gi--1-1  gi--1-3--m">
         <div class="p3 bg-black c-white">
-            <p class="fw-b">Black</p>
-            <p>#000000</p>
+            <p class="fw-b m0">Black</p>
+            <p class="m0">#000000</p>
         </div>
     </div>
 
     <div class="gi--1-1  gi--1-3--m">
         <div class="p3 bg-grey c-black">
-            <p class="fw-b">Grey</p>
-            <p>#cccccc</p>
+            <p class="fw-b m0">Grey</p>
+            <p class="m0">#cccccc</p>
         </div>
     </div>
 
     <div class="gi--1-1  gi--1-3--m">
         <div class="p3 bg-white c-black">
-            <p class="fw-b">White</p>
-            <p>#ffffff</p>
+            <p class="fw-b m0">White</p>
+            <p class="m0">#ffffff</p>
         </div>
     </div>
 
     <div class="gi--1-1  gi--1-3--m">
         <div class="p3 bg-red c-black">
-            <p class="fw-b">Red</p>
-            <p>#ee3124</p>
+            <p class="fw-b m0">Red</p>
+            <p class="m0">#ee3124</p>
         </div>
     </div>
 
     <div class="gi--1-1  gi--1-3--m">
         <div class="p3 bg-orange c-black">
-            <p class="fw-b">Orange</p>
-            <p>#ee6724</p>
+            <p class="fw-b m0">Orange</p>
+            <p class="m0">#ee6724</p>
         </div>
     </div>
 
     <div class="gi--1-1  gi--1-3--m">
         <div class="p3 bg-yellow c-black">
-            <p class="fw-b">Yellow</p>
-            <p>#ecee24</p>
+            <p class="fw-b m0">Yellow</p>
+            <p class="m0">#ecee24</p>
         </div>
     </div>
 
     <div class="gi--1-1  gi--1-3--m">
         <div class="p3 bg-green c-black">
-            <p class="fw-b">Green</p>
-            <p>#ecee24</p>
+            <p class="fw-b m0">Green</p>
+            <p class="m0">#ecee24</p>
         </div>
     </div>
 
     <div class="gi--1-1  gi--1-3--m">
         <div class="p3 bg-blue c-black">
-            <p class="fw-b">Blue</p>
-            <p>#ecee24</p>
+            <p class="fw-b m0">Blue</p>
+            <p class="m0">#ecee24</p>
         </div>
     </div>
 
     <div class="gi--1-1  gi--1-3--m">
         <div class="p3 bg-indigo c-white">
-            <p class="fw-b">Indigo</p>
-            <p>#ecee24</p>
+            <p class="fw-b m0">Indigo</p>
+            <p class="m0">#ecee24</p>
         </div>
     </div>
 
     <div class="gi--1-1  gi--1-3--m">
         <div class="p3 bg-violet c-white">
-            <p class="fw-b">Violet</p>
-            <p>#ecee24</p>
+            <p class="fw-b m0">Violet</p>
+            <p class="m0">#ecee24</p>
         </div>
     </div>
 </div>

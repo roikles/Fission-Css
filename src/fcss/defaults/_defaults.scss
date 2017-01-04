@@ -1,0 +1,46 @@
+////
+// Defaults
+// 
+// These values are here as a set of *sensible* defaults
+// In reality you may want to delete these and write your own
+// but who am I to tell you what to do!
+////
+
+// Variables
+
+// Media queries
+$s: null null;
+$m: 800px null;
+$l: 1000px null;
+
+
+
+// Reset - the no flips given edition.
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    line-height: 1.5;
+}
+
+// Temp wrapper class might be better to abstract this and expand it.
+
+.wrapper{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 900px;
+}
+
+p, ol, ul, dl{
+    margin-top: rem(12);
+    margin-bottom: rem(12);
+}
+
+h1, h2, h3, h4, h5, h6{
+    //margin-top: rem(24);
+    //margin-bottom: rem(12);
+}

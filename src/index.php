@@ -18,7 +18,7 @@
     <div class="gi--1-1  gi--3-4--m">
         <section class="bg-brand-grey p3">
 
-            <h1 class="fs3 mb2">Colors</h1>
+            <h1 class="fs5 mb2 bd-b c-brand-blue">Colors</h1>
             <p>Color classes are created from an array of colours in Sass. they are outputted to color, background-color and border properties.</p>
 
             <?php include('parts/color.php'); ?>
