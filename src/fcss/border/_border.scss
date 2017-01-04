@@ -1,0 +1,24 @@
+////
+// Borders
+////
+@mixin borders($bp: null){
+    .bd{ border: rem(1) solid; }
+
+    .bd-t{ border-top: rem(1) solid; }
+    .bd-r{ border-right: rem(1) solid; }
+    .bd-b{ border-bottom: rem(1) solid; }
+    .bd-l{ border-left: rem(1) solid; }
+
+    .bd-x{ border-left: rem(1) solid; border-right: rem(1) solid; }
+    .bd-y{ border-top: rem(1) solid; border-bottom: rem(1) solid; }
+}
+
+    @include borders();
+
+    @include bp($m){
+        @include borders(-m);
+    }
+
+    @include bp($l){
+        @include borders(-l);
+    }

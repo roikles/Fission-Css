@@ -235,6 +235,36 @@ body:after { box-sizing: border-box; position: fixed; display: block; bottom: 10
   .bgr-x1000px { background-repeat: repeat-x; }
   .bgr-y1000px { background-repeat: repeat-y; } }
 
+.bd { border: 0.1rem solid; }
+
+.bd-t { border-top: 0.1rem solid; }
+
+.bd-r { border-right: 0.1rem solid; }
+
+.bd-b { border-bottom: 0.1rem solid; }
+
+.bd-l { border-left: 0.1rem solid; }
+
+.bd-x { border-left: 0.1rem solid; border-right: 0.1rem solid; }
+
+.bd-y { border-top: 0.1rem solid; border-bottom: 0.1rem solid; }
+
+@media (min-width: 800px) { .bd { border: 0.1rem solid; }
+  .bd-t { border-top: 0.1rem solid; }
+  .bd-r { border-right: 0.1rem solid; }
+  .bd-b { border-bottom: 0.1rem solid; }
+  .bd-l { border-left: 0.1rem solid; }
+  .bd-x { border-left: 0.1rem solid; border-right: 0.1rem solid; }
+  .bd-y { border-top: 0.1rem solid; border-bottom: 0.1rem solid; } }
+
+@media (min-width: 1000px) { .bd { border: 0.1rem solid; }
+  .bd-t { border-top: 0.1rem solid; }
+  .bd-r { border-right: 0.1rem solid; }
+  .bd-b { border-bottom: 0.1rem solid; }
+  .bd-l { border-left: 0.1rem solid; }
+  .bd-x { border-left: 0.1rem solid; border-right: 0.1rem solid; }
+  .bd-y { border-top: 0.1rem solid; border-bottom: 0.1rem solid; } }
+
 .bd-dot { border-style: dotted; }
 
 .bd-dash { border-style: dashed; }
@@ -1066,6 +1096,14 @@ body:after { box-sizing: border-box; position: fixed; display: block; bottom: 10
   .h80-l { height: 80%; }
   .h90-l { height: 90%; }
   .h100-l { height: 100%; } }
+
+.td-none { text-decoration: none; }
+
+.td-underline { text-decoration: underline; }
+
+.td-overline { text-decoration: overline; }
+
+.td-strike { text-decoration: line-through; }
 
 .ff-mono { font-family: 'Space Mono', monospace; }
 
