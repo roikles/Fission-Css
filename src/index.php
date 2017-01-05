@@ -11,7 +11,7 @@
 
 <div class="g  g--no-gutter  g--no-gutter--m  g--no-gutter--l">
     <div class="gi--1-1  gi--1-4--m">
-        <aside class="sidebar h100-m p3 bg-brand-red">
+        <aside class="sidebar h-full-m p3 bg-brand-red">
             <h1 class="c-white">Fission.css</h1>
             <ul class="list">
                 <li><a class="c-brand-blue" href="#color">Color</a></li>
@@ -23,9 +23,8 @@
     </div>
     <div class="gi--1-1  gi--3-4--m">
         <section class="bg-brand-grey p3">
-
-            <?php include('parts/color.php'); ?>
             <?php include('parts/typography.php'); ?>
+            <?php include('parts/color.php'); ?>
 
             <h1 class="fs3 mb2">Spacing</h1>
             <p>Spacing classes set classes for <strong>margin</strong> and <strong>padding</strong>. There are specific rules for top, right, bottom and left values exclusively and also for x-axis (left and right) and y-axis (top and bottom).</p>

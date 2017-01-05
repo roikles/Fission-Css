@@ -1,0 +1,23 @@
+////
+// Text Transforms
+////
+
+@mixin text_transform($bp: null){
+    .tt-none{ text-transform: none; }
+    .tt-caps{ text-transform: capitalize; }
+    .tt-upper{ text-transform: uppercase; }
+    .tt-lower{ text-transform: lowercase; }
+}
+
+// Load the Margin Mixin
+@include text_transform();
+
+// Load the Margin Mixin at the medium media query breakpoint
+@include bp($m){
+    @include text_transform(-m);
+}
+
+// Load the Margin Mixin at the large media query breakpoint
+@include bp($l){
+    @include text_transform(-l);
+}

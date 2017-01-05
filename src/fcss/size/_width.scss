@@ -6,35 +6,29 @@
 // Class prefix for width = .w
 ////
 
-$w10: 10%;
-$w20: 20%;
-$w25: 25%;
-$w30: 30%;
-$w33: 33.3333333333%; // not sure about this...
-$w40: 40%;
-$w50: 50%;
-$w60: 60%;
-$w70: 70%;
-$w75: 75%;
-$w80: 80%;
-$w90: 90%;
-$w100: 100%;
-
 @mixin width_percentage($bp: null){
-    // Margin
-    .w10#{$bp}{ width: $w10; }
-    .w20#{$bp}{ width: $w20; }
-    .w25#{$bp}{ width: $w25; }
-    .w30#{$bp}{ width: $w30; }
-    .w33#{$bp}{ width: $w33; }
-    .w40#{$bp}{ width: $w40; }
-    .w50#{$bp}{ width: $w50; }
-    .w60#{$bp}{ width: $w60; }
-    .w70#{$bp}{ width: $w70; }
-    .w75#{$bp}{ width: $w75; }
-    .w80#{$bp}{ width: $w80; }
-    .w90#{$bp}{ width: $w90; }
-    .w100#{$bp}{ width: $w100; }
+    
+    .w1#{$bp}{ width: rem(24); }
+    .w2#{$bp}{ width: rem(48); }
+    .w3#{$bp}{ width: rem(96); }
+    .w4#{$bp}{ width: rem(120); }
+    .w5#{$bp}{ width: rem(240); }
+    .w6#{$bp}{ width: rem(360); }
+    // full width of container
+    .w-full#{$bp}{ width: 100%; }
+    // Percentages (dont particularly like the syntax
+    .w-10#{$bp}{ width: 10%; }
+    .w-20#{$bp}{ width: 20%; }
+    .w-25#{$bp}{ width: 25%; }
+    .w-30#{$bp}{ width: 30%; }
+    .w-40#{$bp}{ width: 40%; }
+    .w-50#{$bp}{ width: 50%; }
+    .w-60#{$bp}{ width: 60%; }
+    .w-70#{$bp}{ width: 70%; }
+    .w-75#{$bp}{ width: 75%; }
+    .w-80#{$bp}{ width: 80%; }
+    .w-90#{$bp}{ width: 90%; }
+    .w-100#{$bp}{ width: 100%; }
 }
 
 @include width_percentage();

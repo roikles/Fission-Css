@@ -32,6 +32,8 @@
     .fl-baseline#{$bp}{ align-items: baseline; }
     .fl-stretch#{$bp}{ align-items: stretch; }
 
+    .fl-center-center#{$bp}{ justify-content: center; align-items: center; }
+
     // Self Alignment
 
     .fl-self-start#{$bp}{ align-self: flex-start; }
@@ -50,8 +52,8 @@
     .fl-justify-start#{$bp}{ justify-content: start; }
     .fl-justify-end#{$bp}{ justify-content: end; }
     .fl-justify-center#{$bp}{ justify-content: center; }
-    .fl-justify-between#{$bp}{ justify-content: between; }
-    .fl-justify-around#{$bp}{ justify-content: around; }
+    .fl-justify-between#{$bp}{ justify-content: space-between; }
+    .fl-justify-around#{$bp}{ justify-content: space-around; }
 
     // Align content along the vertical axis (need to test how this is afffected by flex direction)
 

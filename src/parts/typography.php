@@ -3,43 +3,37 @@
 
 <p>there is a range of type sizes to use:</p>
 
-<div class="fl fl-init fl-stretch ">
-    <dl class="fl fl-col fl-justify-center">
-        <dt class="fs8 fl-self-grow bg-red">A</dt>
-        <dd>Size 8: 6.8rem</dd>
-    </dl>
-    <dl class="fl fl-col fl-justify-center">
-        <dt class="fs7 bg-red">A</dt>
-        <dd>Size 7: 4.8rem</dd>
-    </dl>
-    <dl class="fl fl-col fl-justify-center">
-        <dt class="fs6 bg-red">A</dt>
-        <dd>Size 6: 3.5rem</dd>
+<div class="fl fl-init fl-justify-between w100">
+    <dl>
+        <dt class="fs8 h2 fl fl-center-center">A</dt>
+        <dd class="fs1">Size 8</dd>
     </dl>
     <dl>
-        <dt class="fs5">A</dt>
-        <dd>Size 5: 2.5rem</dd>
+        <dt class="fs7 h2 fl fl-center-center">A</dt>
+        <dd class="fs1">Size 7</dd>
     </dl>
     <dl>
-        <dt class="fs4">A</dt>
-        <dd>Size 4: 2rem</dd>
+        <dt class="fs6 h2 fl fl-center-center">A</dt>
+        <dd class="fs1">Size 6</dd>
     </dl>
     <dl>
-        <dt class="fs3">A</dt>
-        <dd>Size 3: 1.5rem</dd>
+        <dt class="fs5 h2 fl fl-center-center">A</dt>
+        <dd class="fs1">Size 5</dd>
     </dl>
     <dl>
-        <dt class="fs2">A</dt>
-        <dd>Size 2: 1rem</dd>
+        <dt class="fs4 h2 fl fl-center-center">A</dt>
+        <dd class="fs1">Size 4</dd>
     </dl>
     <dl>
-        <dt class="fs1">A</dt>
-        <dd>Size 1: 0.875rem</dd>
+        <dt class="fs3 h2 fl fl-center-center">A</dt>
+        <dd class="fs1">Size 3</dd>
+    </dl>
+    <dl>
+        <dt class="fs2 h2 fl fl-center-center">A</dt>
+        <dd class="fs1">Size 2</dd>
+    </dl>
+    <dl>
+        <dt class="fs1 h2 fl fl-center-center">A</dt>
+        <dd class="fs1">Size 1</dd>
     </dl>
 </div>
-
-
-
-
-
-
