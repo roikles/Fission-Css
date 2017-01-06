@@ -142,32 +142,68 @@
 </div>
 
 
+<div class="fl fl-row fl-wrap bd-b bd-grey">
 
+    <div class="fl-100 fl-50-m p4 pb0">
+        <h3 class="fs4 fw-l m0">Text Decoration</h3>
 
+        <p class="td-none">None</p>
+        <p class="td-underline">Underline</p>
+        <p class="td-overline">Overline</p>
+        <p class="td-strike">Strike</p>
+    </div>
 
-<h3 class="fs4 fw-l">Text Decoration</h3>
-
-<p class="td-none">None</p>
+    <div class="fl-100 fl-50-m p4 bg-brand-grey">
+<pre><code class="language-markup"><!--<p class="td-none">None</p>
 <p class="td-underline">Underline</p>
 <p class="td-overline">Overline</p>
 <p class="td-strike">Strike</p>
+--></code></pre>
+    </div>
+</div>
 
-.list{ list-style: none; }
-.list-bullet{ list-style: disc; }
-.list-inline{ display: flex; flex-direction: row; }
 
-<h3 class="fs4 fw-l">Lists</h3>
+<div class="fl fl-row fl-wrap bd-b bd-grey">
 
-<h4>List</h4>
+    <div class="fl-100 fl-50-m p4 pb0">
+        <h3 class="fs4 fw-l m0">Lists</h3>
 
-<ul class="list">
+        <h4>List</h4>
+
+        <ul class="list">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ul>
+
+        <h4>Bullet List</h4>
+
+        <ul class="list-bullet">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ul>
+
+        <h4>Inline List</h4>
+
+        <ul class="list list-inline">
+            <li class="pr1">Item 1</li>
+            <li class="pr1">Item 2</li>
+            <li class="pr1">Item 3</li>
+            <li>Item 4</li>
+        </ul>
+                
+    </div>
+
+    <div class="fl-100 fl-50-m p4 bg-brand-grey">
+<pre><code class="language-markup"><!--<ul class="list">
     <li>Item 1</li>
     <li>Item 2</li>
     <li>Item 3</li>
     <li>Item 4</li>
 </ul>
-
-<h4>Bullet List</h4>
 
 <ul class="list-bullet">
     <li>Item 1</li>
@@ -176,14 +212,17 @@
     <li>Item 4</li>
 </ul>
 
-<h4>Inline List</h4>
-
 <ul class="list list-inline">
     <li class="pr1">Item 1</li>
     <li class="pr1">Item 2</li>
     <li class="pr1">Item 3</li>
     <li>Item 4</li>
 </ul>
+--></code></pre>
+    </div>
+</div>
+
+<h3 class="fs4 fw-l">Lists</h3>
 
 <h3 class="fs4 fw-l">Text Transform</h3>
 
