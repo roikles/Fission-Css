@@ -2,26 +2,15 @@
 // Font Sizes
 ////
 
-// THESE FONTS SCALE THE OPPOSITE WAY TO MARGINS FOR EXAMPLE NEEDS UNIFYING
-
-$font_size_8: rem(68); // biggest
-$font_size_7: rem(48);
-$font_size_6: rem(35);
-$font_size_5: rem(25);
-$font_size_4: rem(20);
-$font_size_3: rem(15);
-$font_size_2: rem(12);
-$font_size_1: rem(8); // smallest
-
 @mixin font_size($bp: null){
-    .fs1#{$bp}{ font-size: $font_size_1; }
-    .fs2#{$bp}{ font-size: $font_size_2; }
-    .fs3#{$bp}{ font-size: $font_size_3; }
-    .fs4#{$bp}{ font-size: $font_size_4; }
-    .fs5#{$bp}{ font-size: $font_size_5; }
-    .fs6#{$bp}{ font-size: $font_size_6; }
-    .fs7#{$bp}{ font-size: $font_size_7; }
-    .fs8#{$bp}{ font-size: $font_size_8; }
+    .fs8#{$bp}{ font-size: rem(68); }
+    .fs7#{$bp}{ font-size: rem(48); }
+    .fs6#{$bp}{ font-size: rem(35); }
+    .fs5#{$bp}{ font-size: rem(25); }
+    .fs4#{$bp}{ font-size: rem(20); }
+    .fs3#{$bp}{ font-size: rem(15); }
+    .fs2#{$bp}{ font-size: rem(12); }
+    .fs1#{$bp}{ font-size: rem(8); }
 }
 
 // Load the Margin Mixin
