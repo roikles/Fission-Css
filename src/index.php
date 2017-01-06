@@ -10,9 +10,9 @@
 <body class="ff-sans">
 
 <div class="g  g--no-gutter  g--no-gutter--m  g--no-gutter--l">
-    <div class="gi--1-1  gi--1-4--m">
+    <div class="gi--1-1  gi--2-12--m">
         <aside class="sidebar h-full-m p3 bg-brand-red">
-            <h1 class="c-white">Fission.css</h1>
+            <h1 class="c-white mt0">Fission.css</h1>
             <ul class="list">
                 <li><a class="c-brand-blue" href="#color">Color</a></li>
                 <li><a class="c-brand-blue" href="#typography">Typography</a></li>
@@ -21,8 +21,8 @@
             </ul>
         </aside>
     </div>
-    <div class="gi--1-1  gi--3-4--m">
-        <section class="bg-brand-grey p3">
+    <div class="gi--1-1  gi--10-12--m">
+        <section class="">
             <?php include('parts/typography.php'); ?>
             <?php include('parts/color.php'); ?>
 

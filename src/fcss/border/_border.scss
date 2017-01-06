@@ -3,15 +3,15 @@
 ////
 
 @mixin borders($bp: null){
-    .bd{ border: rem(1) solid; }
+    .bd#{$bp}{ border-width: rem(1); border-style: solid; }
 
-    .bd-t{ border-top: rem(1) solid; }
-    .bd-r{ border-right: rem(1) solid; }
-    .bd-b{ border-bottom: rem(1) solid; }
-    .bd-l{ border-left: rem(1) solid; }
+    .bd-t#{$bp}{ border-top-width: rem(1);    border-top-style: solid; }
+    .bd-r#{$bp}{ border-right-width: rem(1);  border-right-style: solid; }
+    .bd-b#{$bp}{ border-bottom-width: rem(1); border-bottom-style: solid; }
+    .bd-l#{$bp}{ border-left-width: rem(1);   border-left-style: solid; }
 
-    .bd-x{ border-left: rem(1) solid; border-right: rem(1) solid; }
-    .bd-y{ border-top: rem(1) solid; border-bottom: rem(1) solid; }
+    .bd-x#{$bp}{ border-left-width: rem(1); border-left-style: solid; border-right-width: rem(1); border-right-style: solid; }
+    .bd-y#{$bp}{ border-top-width: rem(1); border-top-style: solid; border-bottom-width: rem(1); border-bottom-style: solid; }
 }
 
     @include borders();

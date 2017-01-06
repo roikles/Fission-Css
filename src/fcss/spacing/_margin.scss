@@ -73,20 +73,20 @@ $m5: 4rem;
     .ml5#{$bp}{ margin-left: $m5; }
 
     // Margin X (Left and Right)
-    .mx0#{$bp}{ margin: 0 $m0; }
-    .mx1#{$bp}{ margin: 0 $m1; }
-    .mx2#{$bp}{ margin: 0 $m2; }
-    .mx3#{$bp}{ margin: 0 $m3; }
-    .mx4#{$bp}{ margin: 0 $m4; }
-    .mx5#{$bp}{ margin: 0 $m5; }
+    .mx0#{$bp}{ margin-left: $m0; margin-right: $m0; }
+    .mx1#{$bp}{ margin-left: $m1; margin-right: $m1; }
+    .mx2#{$bp}{ margin-left: $m2; margin-right: $m2; }
+    .mx3#{$bp}{ margin-left: $m3; margin-right: $m3; }
+    .mx4#{$bp}{ margin-left: $m4; margin-right: $m4; }
+    .mx5#{$bp}{ margin-left: $m5; margin-right: $m5; }
 
     // Margin Y (Top and Bottom)
-    .my0#{$bp}{ margin: $m0 0; }
-    .my1#{$bp}{ margin: $m1 0; }
-    .my2#{$bp}{ margin: $m2 0; }
-    .my3#{$bp}{ margin: $m3 0; }
-    .my4#{$bp}{ margin: $m4 0; }
-    .my5#{$bp}{ margin: $m5 0; }
+    .my0#{$bp}{ margin-top: $m0; margin-bottom: $m0; }
+    .my1#{$bp}{ margin-top: $m1; margin-bottom: $m0; }
+    .my2#{$bp}{ margin-top: $m2; margin-bottom: $m0; }
+    .my3#{$bp}{ margin-top: $m3; margin-bottom: $m0; }
+    .my4#{$bp}{ margin-top: $m4; margin-bottom: $m0; }
+    .my5#{$bp}{ margin-top: $m5; margin-bottom: $m0; }
 
     // Auto Margins
     .mxauto{ margin-left: auto; margin-right: auto; }

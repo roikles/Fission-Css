@@ -1,63 +1,149 @@
-<h1 id="typography" class="fs5 bd-b c-brand-blue">Typography</h1>
+<h1 id="typography" class="fs5 bg-brand-blue c-brand-red p3 m0">Typography</h1>
 
-<h2 class="fs4 fw-l">Typographic Scale</h2>
+<div class="fl fl-row fl-wrap bd-b bd-grey">
+    <div class="fl-100 fl-50-m p4">
 
-<div class="fl fl-init fl-justify-between w100">
-    <dl>
-        <dt class="fs8 h2 fl fl-center-center">A</dt>
-        <dd class="fs1">Size 8</dd>
-    </dl>
-    <dl>
-        <dt class="fs7 h2 fl fl-center-center">A</dt>
-        <dd class="fs1">Size 7</dd>
-    </dl>
-    <dl>
-        <dt class="fs6 h2 fl fl-center-center">A</dt>
-        <dd class="fs1">Size 6</dd>
-    </dl>
-    <dl>
-        <dt class="fs5 h2 fl fl-center-center">A</dt>
-        <dd class="fs1">Size 5</dd>
-    </dl>
-    <dl>
-        <dt class="fs4 h2 fl fl-center-center">A</dt>
-        <dd class="fs1">Size 4</dd>
-    </dl>
-    <dl>
-        <dt class="fs3 h2 fl fl-center-center">A</dt>
-        <dd class="fs1">Size 3</dd>
-    </dl>
-    <dl>
-        <dt class="fs2 h2 fl fl-center-center">A</dt>
-        <dd class="fs1">Size 2</dd>
-    </dl>
-    <dl>
-        <dt class="fs1 h2 fl fl-center-center">A</dt>
-        <dd class="fs1">Size 1</dd>
-    </dl>
+        <h2 class="fs4 fw-l m0"><span class="c-brand-red"># </span>Typographic Scale</h2>
+
+        <p class="mt0">Source: <a class="c-brand-red" href="https://github.com/roikles/Fission-Css/blob/master/src/fcss/type/_sizes.scss">type/_sizes.scss</a></p>
+
+        <p class="fs8 m0 lh1">Size 8</p>
+        <p class="fs7 m0 lh1">Size 7</p>
+        <p class="fs6 m0 lh1">Size 6</p>
+        <p class="fs5 m0 lh1">Size 5</p>
+        <p class="fs4 m0 lh1">Size 4</p>
+        <p class="fs3 m0 lh1">Size 3</p>
+        <p class="fs2 m0 lh1">Size 2</p>
+        <p class="fs1 m0 lh1">Size 1</p>
+    </div>
+    <div class="fl-100 fl-50-m p4 bg-brand-grey">
+        
+<pre><code class="language-markup"><!--<p class="fs8 m0">Size 8</p>
+<p class="fs7">Size 7</p>
+<p class="fs6">Size 6</p>
+<p class="fs5">Size 5</p>
+<p class="fs4">Size 4</p>
+<p class="fs3">Size 3</p>
+<p class="fs2">Size 2</p>
+<p class="fs1">Size 1</p>
+--></code></pre>
+
+    </div>
 </div>
 
-<h3 class="fs4 fw-l">Responsive Typography (resize window to see)</h3>
 
-<h4>.fs3 / .fs4-m / .fs5-l</h4>
-<p class="fs3 fs4-m fs5-l">What's the point of going out? We're just going to wind up back here anyway. Lisa, vampires are make-believe, like elves, gremlins, and Eskimos. Son, a woman is like a beer. They smell good, they look good, you'd step over your own mother just to get one! But you can't stop at one. You wanna drink another woman!</p>
+<div class="fl fl-row fl-wrap  bd-b bd-grey">
+    
+    <div class="fl-100 fl-50-m p4 pb0 pb0">
+        <h3 class="fs4 fw-l m0"><span class="c-brand-red"># </span>Responsive Typography</h3>
+        <p class="m0">Source: <a class="c-brand-red" href="https://github.com/roikles/Fission-Css/blob/master/src/fcss/type/_sizes.scss">type/_sizes.scss</a></p>
+    </div>
 
-<h4>.fs2 / .fs3-m / .fs4-l</h4>
-<p class="fs2 fs3-m fs4-l">What's the point of going out? We're just going to wind up back here anyway. Lisa, vampires are make-believe, like elves, gremlins, and Eskimos. Son, a woman is like a beer. They smell good, they look good, you'd step over your own mother just to get one! But you can't stop at one. You wanna drink another woman!</p>
+    <div class="fl-100 fl-50-m px4 bg-brand-grey"></div>
 
-<h4>.fs1 / .fs2-m / .fs3-l</h4>
-<p class="fs1 fs2-m fs3-l">What's the point of going out? We're just going to wind up back here anyway. Lisa, vampires are make-believe, like elves, gremlins, and Eskimos. Son, a woman is like a beer. They smell good, they look good, you'd step over your own mother just to get one! But you can't stop at one. You wanna drink another woman!</p>
+    <div class="fl-100 fl-50-m px4">
+         <p class="fs3 fs4-m fs5-l">What's the point of going out? We're just going to wind up back here anyway.</p>
+    </div>
 
-<h3 class="fs4 fw-l">Font Family</h3>
+    <div class="fl-100 fl-50-m px4 bg-brand-grey">
+       <pre><code class="language-markup"><!--<p class="fs3 fs4-m fs5-l">
+    What's the point...
+</p>--></code></pre>
+    </div>
 
-<h4>Monospace</h4>
-<p class="ff-mono">What's the point of going out? We're just going to wind up back here anyway. Lisa, vampires are make-believe, like elves, gremlins, and Eskimos. Son, a woman is like a beer.</p>
+    <div class="fl-100 fl-50-m px4 pt0">
+         <p class="fs2 fs3-m fs4-l">What's the point of going out? We're just going to wind up back here anyway. Lisa, vampires are make-believe, like elves, gremlins, and Eskimos.</p>
+    </div>
 
-<h4>Serif</h4>
-<p class="ff-serif">What's the point of going out? We're just going to wind up back here anyway. Lisa, vampires are make-believe, like elves, gremlins, and Eskimos. Son, a woman is like a beer.</p>
+    <div class="fl-100 fl-50-m px4 pt0 bg-brand-grey">
+        <pre><code class="language-markup"><!--<p class="fs3 fs4-m fs5-l">
+    What's the point...
+</p>--></code></pre>
+    </div>
 
-<h4>Sans Serif</h4>
-<p class="ff-sans">What's the point of going out? We're just going to wind up back here anyway. Lisa, vampires are make-believe, like elves, gremlins, and Eskimos. Son, a woman is like a beer.</p>
+    <div class="fl-100 fl-50-m p4 pt0">
+        <p class="fs1 fs2-m fs3-l">What's the point of going out? We're just going to wind up back here anyway. Lisa, vampires are make-believe, like elves, gremlins, and Eskimos. Son, a woman is like a beer. They smell good, they look good, you'd step over your own mother just to get one! But you can't stop at one. You wanna drink another woman!</p>
+    </div>
+
+    <div class="fl-100 fl-50-m px4 bg-brand-grey">
+        <pre><code class="language-markup"><!--<p class="fs3 fs4-m fs5-l">
+    What's the point...
+</p>--></code></pre>
+    </div>
+        
+</div>
+
+<div class="fl fl-row fl-wrap bd-b bd-grey">
+
+    <div class="fl-100 fl-50-m p4 pb0 pb0">
+        <h3 class="fs4 fw-l m0"><span class="c-brand-red"># </span>Font Family</h3>
+        <p class="mt0">Source: <a class="c-brand-red" href="https://github.com/roikles/Fission-Css/blob/master/src/fcss/type/_family.scss">type/_sizes.scss</a></p>
+    </div>
+
+    <div class="fl-100 fl-50-m px4 bg-brand-grey">
+        
+    </div>
+
+
+    <div class="fl-100 fl-50-m px4">
+        <h4>Monospace</h4>
+        <p class="ff-mono">What's the point of going out? We're just going to wind up back here anyway. Lisa, vampires are make-believe, like elves, gremlins, and Eskimos. Son, a woman is like a beer.</p>
+    </div>
+        
+    <div class="fl-100 fl-50-m px4 bg-brand-grey">
+        <pre><code class="language-markup"><!--<p class="ff-mono">
+    What's the point...
+</p>--></code></pre>
+    </div>
+
+    <div class="fl-100 fl-50-m px4">
+        <h4>Serif</h4>
+        <p class="ff-serif">What's the point of going out? We're just going to wind up back here anyway. Lisa, vampires are make-believe, like elves, gremlins, and Eskimos. Son, a woman is like a beer.</p>
+    </div>
+
+    <div class="fl-100 fl-50-m px4 bg-brand-grey">
+        <pre><code class="language-markup"><!--<p class="ff-serif">
+    What's the point...
+</p>--></code></pre>
+    </div>
+
+    <div class="fl-100 fl-50-m px4 pb4">
+        <h4>Sans Serif</h4>
+        <p class="ff-sans">What's the point of going out? We're just going to wind up back here anyway. Lisa, vampires are make-believe, like elves, gremlins, and Eskimos. Son, a woman is like a beer.</p>
+    </div>
+
+    <div class="fl-100 fl-50-m px4 bg-brand-grey">
+        <pre><code class="language-markup"><!--<p class="ff-sans">
+    What's the point...
+</p>--></code></pre>
+    </div>
+
+</div>
+
+
+<div class="fl fl-row fl-wrap bd-b bd-grey">
+
+    <div class="fl-100 fl-50-m p4 pb0">
+        <h3 class="fs4 fw-l m0">Font Weight</h3>
+
+        <p class="fw-l">Light</p>
+        <p class="fw-m">Medium</p>
+        <p class="fw-sb">Semi Bold</p>
+        <p class="fw-b">Bold</p>
+    </div>
+
+    <div class="fl-100 fl-50-m p4 bg-brand-grey">
+<pre><code class="language-markup"><!--<p class="fw-l">Light</p>
+<p class="fw-m">Medium</p>
+<p class="fw-sb">Semi Bold</p>
+<p class="fw-b">Bold</p>
+--></code></pre>
+    </div>
+</div>
+
+
+
+
 
 <h3 class="fs4 fw-l">Text Decoration</h3>
 
@@ -99,13 +185,9 @@
     <li>Item 4</li>
 </ul>
 
-.tt-none{ text-transform: none; }
-    .tt-caps{ text-transform: capitalize; }
-    .tt-upper{ text-transform: uppercase; }
-    .tt-lower{ text-transform: lowercase; }
-
 <h3 class="fs4 fw-l">Text Transform</h3>
 
+<p class="tt-none">None</p>
 <p class="tt-caps">capitalize</p>
 <p class="tt-upper">Uppercase</p>
 <p class="tt-lower">Lowercase</p>

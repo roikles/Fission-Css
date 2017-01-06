@@ -32,61 +32,61 @@ $p5: 4rem;
 ////
 @mixin padding($bp: null){
     // Padding
-    .p0#{$bp}{ padding: $m0; }
-    .p1#{$bp}{ padding: $m1; }
-    .p2#{$bp}{ padding: $m2; }
-    .p3#{$bp}{ padding: $m3; }
-    .p4#{$bp}{ padding: $m4; }
-    .p5#{$bp}{ padding: $m5; }
+    .p0#{$bp}{ padding: $p0; }
+    .p1#{$bp}{ padding: $p1; }
+    .p2#{$bp}{ padding: $p2; }
+    .p3#{$bp}{ padding: $p3; }
+    .p4#{$bp}{ padding: $p4; }
+    .p5#{$bp}{ padding: $p5; }
     .pauto#{$bp}{ padding: 0 auto; }
 
     // Padding Top
-    .pt0#{$bp}{ padding-top: $m0; }
-    .pt1#{$bp}{ padding-top: $m1; }
-    .pt2#{$bp}{ padding-top: $m2; }
-    .pt3#{$bp}{ padding-top: $m3; }
-    .pt4#{$bp}{ padding-top: $m4; }
-    .pt5#{$bp}{ padding-top: $m5; }
+    .pt0#{$bp}{ padding-top: $p0; }
+    .pt1#{$bp}{ padding-top: $p1; }
+    .pt2#{$bp}{ padding-top: $p2; }
+    .pt3#{$bp}{ padding-top: $p3; }
+    .pt4#{$bp}{ padding-top: $p4; }
+    .pt5#{$bp}{ padding-top: $p5; }
 
     // Padding Right
-    .pr0#{$bp}{ padding-right: $m0; }
-    .pr1#{$bp}{ padding-right: $m1; }
-    .pr2#{$bp}{ padding-right: $m2; }
-    .pr3#{$bp}{ padding-right: $m3; }
-    .pr4#{$bp}{ padding-right: $m4; }
-    .pr5#{$bp}{ padding-right: $m5; }
+    .pr0#{$bp}{ padding-right: $p0; }
+    .pr1#{$bp}{ padding-right: $p1; }
+    .pr2#{$bp}{ padding-right: $p2; }
+    .pr3#{$bp}{ padding-right: $p3; }
+    .pr4#{$bp}{ padding-right: $p4; }
+    .pr5#{$bp}{ padding-right: $p5; }
 
     // Padding Bottom
-    .pb0#{$bp}{ padding-bottom: $m0; }
-    .pb1#{$bp}{ padding-bottom: $m1; }
-    .pb2#{$bp}{ padding-bottom: $m2; }
-    .pb3#{$bp}{ padding-bottom: $m3; }
-    .pb4#{$bp}{ padding-bottom: $m4; }
-    .pb5#{$bp}{ padding-bottom: $m5; }
+    .pb0#{$bp}{ padding-bottom: $p0; }
+    .pb1#{$bp}{ padding-bottom: $p1; }
+    .pb2#{$bp}{ padding-bottom: $p2; }
+    .pb3#{$bp}{ padding-bottom: $p3; }
+    .pb4#{$bp}{ padding-bottom: $p4; }
+    .pb5#{$bp}{ padding-bottom: $p5; }
 
     // padding Left
-    .pl0#{$bp}{ padding-left: $m0; }
-    .pl1#{$bp}{ padding-left: $m1; }
-    .pl2#{$bp}{ padding-left: $m2; }
-    .pl3#{$bp}{ padding-left: $m3; }
-    .pl4#{$bp}{ padding-left: $m4; }
-    .pl5#{$bp}{ padding-left: $m5; }
+    .pl0#{$bp}{ padding-left: $p0; }
+    .pl1#{$bp}{ padding-left: $p1; }
+    .pl2#{$bp}{ padding-left: $p2; }
+    .pl3#{$bp}{ padding-left: $p3; }
+    .pl4#{$bp}{ padding-left: $p4; }
+    .pl5#{$bp}{ padding-left: $p5; }
 
     // padding X (Left and Right)
-    .px0#{$bp}{ padding: 0 $m0; }
-    .px1#{$bp}{ padding: 0 $m1; }
-    .px2#{$bp}{ padding: 0 $m2; }
-    .px3#{$bp}{ padding: 0 $m3; }
-    .px4#{$bp}{ padding: 0 $m4; }
-    .px5#{$bp}{ padding: 0 $m5; }
+    .px0#{$bp}{ padding-left: $p0; padding-right: $p0; }
+    .px1#{$bp}{ padding-left: $p1; padding-right: $p1; }
+    .px2#{$bp}{ padding-left: $p2; padding-right: $p2; }
+    .px3#{$bp}{ padding-left: $p3; padding-right: $p3; }
+    .px4#{$bp}{ padding-left: $p4; padding-right: $p4; }
+    .px5#{$bp}{ padding-left: $p5; padding-right: $p5; }
 
     // Padding Y (Top and Bottom)
-    .py0#{$bp}{ padding: $m0 0; }
-    .py1#{$bp}{ padding: $m1 0; }
-    .py2#{$bp}{ padding: $m2 0; }
-    .py3#{$bp}{ padding: $m3 0; }
-    .py4#{$bp}{ padding: $m4 0; }
-    .py5#{$bp}{ padding: $m5 0; }
+    .py0#{$bp}{ padding-top: $p0; padding-bottom: $p0; }
+    .py1#{$bp}{ padding-top: $p1; padding-bottom: $p1; }
+    .py2#{$bp}{ padding-top: $p2; padding-bottom: $p2; }
+    .py3#{$bp}{ padding-top: $p3; padding-bottom: $p3; }
+    .py4#{$bp}{ padding-top: $p4; padding-bottom: $p4; }
+    .py5#{$bp}{ padding-top: $p5; padding-bottom: $p5; }
 }
 
 // Load the padding Mixin
