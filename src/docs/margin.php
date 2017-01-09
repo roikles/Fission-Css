@@ -1,4 +1,49 @@
 
+<div class="fl fl-row fl-wrap  bd-b bd-grey">
+    
+    <div class="fl-100 fl-50-m p4 pb0 pb0">
+        <h3 class="fs4 fw-l m0"><span class="c-brand-red"># </span>Margin</h3>
+        <p class="m0">Source: <a class="c-brand-red" href="https://github.com/roikles/Fission-Css/blob/master/src/fcss/spacing/_margin.scss">spacing/_margin.scss</a></p>
+    </div>
+
+    <div class="fl-100 fl-50-m px4 bg-brand-grey"></div>
+
+    <div class="fl-100 fl-50-m px4">
+        <h4>Margin</h4>
+        <div class="bg-grey">
+            <div class="m0 p1 bg-blue c-white d-inb">.m0</div>
+        </div>
+
+        <div class="bg-grey">
+            <div class="mb1 p1 bg-blue c-white">.m1</div>
+        </div>
+
+        <div class="bg-grey">
+            <div class="m2 p1 bg-blue c-white d-inb">.m2</div>
+        </div>
+
+        <div class="bg-grey">
+            <div class="m3 p1 bg-blue c-white d-inb">.m3</div>
+        </div>
+
+        <div class="bg-grey">
+            <div class="m4 p1 bg-blue c-white d-inb">.m4</div>
+        </div>
+
+        <div class="bg-grey">
+            <div class="m5 p1 bg-blue c-white d-inb">.m5</div>
+        </div>
+
+    </div>
+
+    <div class="fl-100 fl-50-m p4 bg-brand-grey">
+       <pre><code class="language-markup"><!----></code></pre>
+    </div>
+
+
+</div>
+
+
 <h2 class="fs5 my2">Margins</h2>
 
 <div class="g">

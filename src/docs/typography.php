@@ -16,7 +16,7 @@
     </div>
     <div class="fl-100 fl-50-m p4 bg-brand-grey">
         
-<pre><code class="language-markup"><!--<p class="fs8 m0">Size 8</p>
+<pre><code class="language-markup"><!--<p class="fs8">Size 8</p>
 <p class="fs7">Size 7</p>
 <p class="fs6">Size 6</p>
 <p class="fs5">Size 5</p>
@@ -43,17 +43,17 @@
          <p class="fs3 fs4-m fs5-l">What's the point of going out? We're just going to wind up back here anyway.</p>
     </div>
 
-    <div class="fl-100 fl-50-m px4 bg-brand-grey">
+    <div class="fl-100 fl-50-m p4 bg-brand-grey">
        <pre><code class="language-markup"><!--<p class="fs3 fs4-m fs5-l">
     What's the point...
 </p>--></code></pre>
     </div>
 
-    <div class="fl-100 fl-50-m px4 pt0">
+    <div class="fl-100 fl-50-m p4 pt0">
          <p class="fs2 fs3-m fs4-l">What's the point of going out? We're just going to wind up back here anyway. Lisa, vampires are make-believe, like elves, gremlins, and Eskimos.</p>
     </div>
 
-    <div class="fl-100 fl-50-m px4 pt0 bg-brand-grey">
+    <div class="fl-100 fl-50-m p4 bg-brand-grey">
         <pre><code class="language-markup"><!--<p class="fs3 fs4-m fs5-l">
     What's the point...
 </p>--></code></pre>
@@ -63,7 +63,7 @@
         <p class="fs1 fs2-m fs3-l mb0">What's the point of going out? We're just going to wind up back here anyway. Lisa, vampires are make-believe, like elves, gremlins, and Eskimos. Son, a woman is like a beer. They smell good, they look good, you'd step over your own mother just to get one! But you can't stop at one. You wanna drink another woman!</p>
     </div>
 
-    <div class="fl-100 fl-50-m px4 bg-brand-grey">
+    <div class="fl-100 fl-50-m p4 bg-brand-grey">
         <pre><code class="language-markup"><!--<p class="fs3 fs4-m fs5-l">
     What's the point...
 </p>--></code></pre>
@@ -73,7 +73,7 @@
 
 <div class="fl fl-row fl-wrap bd-b bd-grey">
 
-    <div class="fl-100 fl-50-m p4 pb0 pb0">
+    <div class="fl-100 fl-50-m p4 pb0">
         <h3 class="fs4 fw-l m0"><span class="c-brand-red"># </span>Font Family</h3>
         <p class="mt0">Source: <a class="c-brand-red" href="https://github.com/roikles/Fission-Css/blob/master/src/fcss/type/_family.scss">type/_family.scss</a></p>
     </div>
@@ -88,7 +88,7 @@
         <p class="ff-mono">What's the point of going out? We're just going to wind up back here anyway. Lisa, vampires are make-believe, like elves, gremlins, and Eskimos. Son, a woman is like a beer.</p>
     </div>
         
-    <div class="fl-100 fl-50-m px4 bg-brand-grey">
+    <div class="fl-100 fl-50-m p4 bg-brand-grey">
         <pre><code class="language-markup"><!--<p class="ff-mono">
     What's the point...
 </p>--></code></pre>
@@ -99,7 +99,7 @@
         <p class="ff-serif">What's the point of going out? We're just going to wind up back here anyway. Lisa, vampires are make-believe, like elves, gremlins, and Eskimos. Son, a woman is like a beer.</p>
     </div>
 
-    <div class="fl-100 fl-50-m px4 bg-brand-grey">
+    <div class="fl-100 fl-50-m p4 bg-brand-grey">
         <pre><code class="language-markup"><!--<p class="ff-serif">
     What's the point...
 </p>--></code></pre>
@@ -110,7 +110,7 @@
         <p class="ff-sans mb0">What's the point of going out? We're just going to wind up back here anyway. Lisa, vampires are make-believe, like elves, gremlins, and Eskimos. Son, a woman is like a beer.</p>
     </div>
 
-    <div class="fl-100 fl-50-m px4 bg-brand-grey">
+    <div class="fl-100 fl-50-m p4 bg-brand-grey">
         <pre><code class="language-markup"><!--<p class="ff-sans">
     What's the point...
 </p>--></code></pre>
