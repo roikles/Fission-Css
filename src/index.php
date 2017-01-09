@@ -23,21 +23,28 @@
     </div>
     <div class="gi--1-1  gi--10-12--m">
         <section class="">
-            <?php include('parts/typography.php'); ?>
-            <?php include('parts/color.php'); ?>
 
-            <h1 class="fs3 mb2">Spacing</h1>
+            <h1 id="typography" class="fs5 bg-brand-blue c-brand-red p3 m0">Typography</h1>
+
+            <?php include('docs/typography.php'); ?>
+            
+            <h1 id="colors" class="fs5 bg-brand-blue c-brand-red p3 m0">Colors</h1>
+
+            <?php include('docs/color.php'); ?>
+
+            <h1 id="Spacing" class="fs5 bg-brand-blue c-brand-red p3 m0">Spacing</h1>
+
             <p>Spacing classes set classes for <strong>margin</strong> and <strong>padding</strong>. There are specific rules for top, right, bottom and left values exclusively and also for x-axis (left and right) and y-axis (top and bottom).</p>
 
-            <?php include('parts/margin.php'); ?>
-            <?php include('parts/padding.php'); ?>
+            <?php include('docs/margin.php'); ?>
+            <?php include('docs/padding.php'); ?>
 
-            <h1 class="fs3 mb2">Background</h1>
+            <h1 id="backgrounds" class="fs5 bg-brand-blue c-brand-red p3 m0">s</h1>
             <p class="mb1">Background classes control the display properties of background images. This includes background-size background-repeat and background-position. </p>
 
-            <?php include('parts/background-position.php'); ?>
-            <?php include('parts/background-repeat.php'); ?>
-            <?php include('parts/background-size.php'); ?>
+            <?php include('docs/background-position.php'); ?>
+            <?php include('docs/background-repeat.php'); ?>
+            <?php include('docs/background-size.php'); ?>
 
         </section>
     </div>

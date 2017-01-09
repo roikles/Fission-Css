@@ -1,5 +1,3 @@
-<h1 id="typography" class="fs5 bg-brand-blue c-brand-red p3 m0">Typography</h1>
-
 <div class="fl fl-row fl-wrap bd-b bd-grey">
     <div class="fl-100 fl-50-m p4">
 
@@ -62,7 +60,7 @@
     </div>
 
     <div class="fl-100 fl-50-m p4 pt0">
-        <p class="fs1 fs2-m fs3-l">What's the point of going out? We're just going to wind up back here anyway. Lisa, vampires are make-believe, like elves, gremlins, and Eskimos. Son, a woman is like a beer. They smell good, they look good, you'd step over your own mother just to get one! But you can't stop at one. You wanna drink another woman!</p>
+        <p class="fs1 fs2-m fs3-l mb0">What's the point of going out? We're just going to wind up back here anyway. Lisa, vampires are make-believe, like elves, gremlins, and Eskimos. Son, a woman is like a beer. They smell good, they look good, you'd step over your own mother just to get one! But you can't stop at one. You wanna drink another woman!</p>
     </div>
 
     <div class="fl-100 fl-50-m px4 bg-brand-grey">
@@ -77,7 +75,7 @@
 
     <div class="fl-100 fl-50-m p4 pb0 pb0">
         <h3 class="fs4 fw-l m0"><span class="c-brand-red"># </span>Font Family</h3>
-        <p class="mt0">Source: <a class="c-brand-red" href="https://github.com/roikles/Fission-Css/blob/master/src/fcss/type/_family.scss">type/_sizes.scss</a></p>
+        <p class="mt0">Source: <a class="c-brand-red" href="https://github.com/roikles/Fission-Css/blob/master/src/fcss/type/_family.scss">type/_family.scss</a></p>
     </div>
 
     <div class="fl-100 fl-50-m px4 bg-brand-grey">
@@ -109,7 +107,7 @@
 
     <div class="fl-100 fl-50-m px4 pb4">
         <h4>Sans Serif</h4>
-        <p class="ff-sans">What's the point of going out? We're just going to wind up back here anyway. Lisa, vampires are make-believe, like elves, gremlins, and Eskimos. Son, a woman is like a beer.</p>
+        <p class="ff-sans mb0">What's the point of going out? We're just going to wind up back here anyway. Lisa, vampires are make-believe, like elves, gremlins, and Eskimos. Son, a woman is like a beer.</p>
     </div>
 
     <div class="fl-100 fl-50-m px4 bg-brand-grey">
@@ -123,13 +121,14 @@
 
 <div class="fl fl-row fl-wrap bd-b bd-grey">
 
-    <div class="fl-100 fl-50-m p4 pb0">
-        <h3 class="fs4 fw-l m0">Font Weight</h3>
+    <div class="fl-100 fl-50-m p4">
+        <h3 class="fs4 fw-l m0"><span class="c-brand-red"># </span>Font Weight</h3>
+        <p class="m0">Source: <a class="c-brand-red" href="https://github.com/roikles/Fission-Css/blob/master/src/fcss/type/_weight.scss">type/_weight.scss</a></p>
 
         <p class="fw-l">Light</p>
         <p class="fw-m">Medium</p>
         <p class="fw-sb">Semi Bold</p>
-        <p class="fw-b">Bold</p>
+        <p class="fw-b m0">Bold</p>
     </div>
 
     <div class="fl-100 fl-50-m p4 bg-brand-grey">
@@ -144,13 +143,14 @@
 
 <div class="fl fl-row fl-wrap bd-b bd-grey">
 
-    <div class="fl-100 fl-50-m p4 pb0">
-        <h3 class="fs4 fw-l m0">Text Decoration</h3>
+    <div class="fl-100 fl-50-m p4">
+        <h3 class="fs4 fw-l m0"><span class="c-brand-red"># </span>Text Decoration</h3>
+        <p class="m0">Source: <a class="c-brand-red" href="https://github.com/roikles/Fission-Css/blob/master/src/fcss/type/_decoration.scss">type/_decoration.scss</a></p>
 
         <p class="td-none">None</p>
         <p class="td-underline">Underline</p>
         <p class="td-overline">Overline</p>
-        <p class="td-strike">Strike</p>
+        <p class="td-strike m0">Strike</p>
     </div>
 
     <div class="fl-100 fl-50-m p4 bg-brand-grey">
@@ -165,8 +165,9 @@
 
 <div class="fl fl-row fl-wrap bd-b bd-grey">
 
-    <div class="fl-100 fl-50-m p4 pb0">
-        <h3 class="fs4 fw-l m0">Lists</h3>
+    <div class="fl-100 fl-50-m p4">
+        <h3 class="fs4 fw-l m0"><span class="c-brand-red"># </span>Lists</h3>
+        <p class="m0">Source: <a class="c-brand-red" href="https://github.com/roikles/Fission-Css/blob/master/src/fcss/type/_lists.scss">type/_lists.scss</a></p>
 
         <h4>List</h4>
 
@@ -188,11 +189,11 @@
 
         <h4>Inline List</h4>
 
-        <ul class="list list-inline">
+        <ul class="list list-inline m0">
             <li class="pr1">Item 1</li>
             <li class="pr1">Item 2</li>
             <li class="pr1">Item 3</li>
-            <li>Item 4</li>
+            <li class="pr1">Item 4</li>
         </ul>
                 
     </div>
@@ -213,21 +214,32 @@
 </ul>
 
 <ul class="list list-inline">
-    <li class="pr1">Item 1</li>
-    <li class="pr1">Item 2</li>
-    <li class="pr1">Item 3</li>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
     <li>Item 4</li>
 </ul>
 --></code></pre>
     </div>
 </div>
 
-<h3 class="fs4 fw-l">Lists</h3>
 
-<h3 class="fs4 fw-l">Text Transform</h3>
+<div class="fl fl-row fl-wrap bd-b bd-grey">
 
-<p class="tt-none">None</p>
+    <div class="fl-100 fl-50-m p4">
+        <h3 class="fs4 fw-l m0">Text Transform</h3>
+        <p class="m0">Source: <a class="c-brand-red" href="https://github.com/roikles/Fission-Css/blob/master/src/fcss/type/_sizes.scss">type/_sizes.scss</a></p>
+
+        <p class="tt-none">None</p>
+        <p class="tt-caps">capitalize</p>
+        <p class="tt-upper">Uppercase</p>
+        <p class="tt-lower m0">Lowercase</p>
+    </div>
+    <div class="fl-100 fl-50-m p4 bg-brand-grey">
+<pre><code class="language-markup"><!--<p class="tt-none">None</p>
 <p class="tt-caps">capitalize</p>
 <p class="tt-upper">Uppercase</p>
 <p class="tt-lower">Lowercase</p>
-
+--></code></pre>
+    </div>
+</div>
