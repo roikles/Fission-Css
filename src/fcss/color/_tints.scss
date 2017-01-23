@@ -1,0 +1,37 @@
+////
+// Tints
+// 
+// Background tints are handled with background-image: linear-gradient;
+// Because of this it wont work well with background images yet.
+// 
+// *until browser support for background-clip:text improves.
+////
+
+@mixin tints($bp: null){
+
+    // Lighten Background Color
+    .bg-lighten-1#{$bp}{ background-image: linear-gradient(rgba(255,255,255,0.20), rgba(255,255,255,0.20)); }
+    .bg-lighten-2#{$bp}{ background-image: linear-gradient(rgba(255,255,255,0.40), rgba(255,255,255,0.40)); }
+    .bg-lighten-3#{$bp}{ background-image: linear-gradient(rgba(255,255,255,0.60), rgba(255,255,255,0.60)); }
+    .bg-lighten-4#{$bp}{ background-image: linear-gradient(rgba(255,255,255,0.80), rgba(255,255,255,0.80)); }
+
+    // Darken Background Color
+    .bg-darken-1{ background-image: linear-gradient(rgba(0,0,0,0.20), rgba(0,0,0,0.20)); }
+    .bg-darken-2{ background-image: linear-gradient(rgba(0,0,0,0.40), rgba(0,0,0,0.40)); }
+    .bg-darken-3{ background-image: linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)); }
+    .bg-darken-4{ background-image: linear-gradient(rgba(0,0,0,0.80), rgba(0,0,0,0.80)); }
+}
+
+// Load the Color Mixin
+@include tints();
+
+// Load the Color Mixin at the medium media query breakpoint
+@include bp($m){
+    @include tints(-m);
+}
+
+// Load the Color Mixin at the large media query breakpoint
+@include bp($l){
+    @include tints(-l);
+}
+

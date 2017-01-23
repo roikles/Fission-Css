@@ -124,6 +124,80 @@
 </div>
 
 
+
+
+
+<div class="fl fl-row fl-wrap bd-b bd-grey">
+    <div class="fl-100 fl-50-m p4">
+        <h3 class="fs4 fw-l m0"><span class="c-brand-red"># </span>Color tints</h3>
+        <p class="mt0">Source: <a class="c-brand-red" href="https://github.com/roikles/Fission-Css/blob/master/src/fcss/color/_tints.scss">color/_tints.scss</a></p>
+        
+        <h4>Tints that lighten color</h4>
+
+        <div class="p2 bg-red c-white">
+            <p class="fw-b m0">Red</p>
+        </div>
+
+        <div class="p2 bg-red bg-lighten-1 c-white">
+            <p class="fw-b m0">Red + lighten tint 1</p>
+        </div>
+
+        <div class="p2 bg-red bg-lighten-2 c-white">
+            <p class="fw-b m0">Red + lighten tint 2</p>
+        </div>
+
+        <div class="p2 bg-red bg-lighten-3 c-white">
+            <p class="fw-b m0">Red + lighten tint 3</p>
+        </div>
+
+        <div class="p2 bg-red bg-lighten-4 c-white">
+            <p class="fw-b m0">Red + lighten tint 4</p>
+        </div>
+
+        <h4>Tints that darken color</h4>
+
+        <div class="p2 bg-blue c-white">
+            <p class="fw-b m0">Red</p>
+        </div>
+
+        <div class="p2 bg-blue bg-darken-1 c-white">
+            <p class="fw-b m0">Red + darken tint 1</p>
+        </div>
+
+        <div class="p2 bg-blue bg-darken-2 c-white">
+            <p class="fw-b m0">Red + darken tint 2</p>
+        </div>
+
+        <div class="p2 bg-blue bg-darken-3 c-white">
+            <p class="fw-b m0">Red + darken tint 3</p>
+        </div>
+
+        <div class="p2 bg-blue bg-darken-4 c-white">
+            <p class="fw-b m0">Red + darken tint 4</p>
+        </div>
+
+
+
+    </div>
+    <div class="fl-100 fl-50-m p4 bg-brand-grey">
+<pre><code class="language-markup"><!--<div class="bg-red">...</div>
+<div class="bg-red bg-lighten-1">...</div>
+<div class="bg-red bg-lighten-2">...</div>
+<div class="bg-red bg-lighten-3">...</div>
+<div class="bg-red bg-lighten-4">...</div>
+
+<div class="bg-blue">...</div>
+<div class="bg-blue bg-darken-1">...</div>
+<div class="bg-blue bg-darken-2">...</div>
+<div class="bg-blue bg-darken-3">...</div>
+<div class="bg-blue bg-darken-4">...</div>
+--></code></pre>      
+    </div>
+</div>
+
+
+
+
 <div class="fl fl-row fl-wrap bd-b bd-grey">
     <div class="fl-100 fl-50-m p4">
         <h3 class="fs4 fw-l m0"><span class="c-brand-red"># </span>Border Colors</h3>
