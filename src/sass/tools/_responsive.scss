@@ -1,0 +1,15 @@
+////
+// Responsive Mixin
+// 
+// This mixin keeps our Sass DRY by keeping all the 
+// media query stuff in one place.
+// 
+// * Add additional breakpoints to this function only.
+// CURRENT DOESNT WORK, NEEDS MORE HEADSCRATCHING ON
+// HOW TO EFFECTIVELY PASS SUFFIXES TO EACH SELECTOR
+////
+
+@mixin responsive(){
+    @include bp($m){ @content; }
+    @include bp($l){ @content; }
+}

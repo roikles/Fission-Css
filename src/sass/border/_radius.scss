@@ -1,0 +1,19 @@
+////
+// Border Radius
+////
+
+@mixin border_radius($bp: null){
+    .bd-rad1#{$bp}{ border-radius: 0.3rem; }
+    .bd-rad2#{$bp}{ border-radius: 1rem; }
+    .bd-rad-circle#{$bp}{ border-radius: 50%; }
+}
+
+@include border_radius();
+
+@include bp($m){
+    @include border_radius(-m);
+}
+
+@include bp($l){
+    @include border_radius(-l);
+}

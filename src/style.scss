@@ -14,6 +14,7 @@
 @import "fcss/tools/_aspect-ratios";
 @import "node_modules/Gridtacular/src/_gridtacular";
 @import "fcss/tools/_grid";
+@import "fcss/tools/_responsive";
 
 ////
 // Library/ Framework (who even knows which is which anymore)
@@ -27,6 +28,7 @@
 @import "fcss/border/_border";
 @import "fcss/border/_style";
 @import "fcss/border/_width";
+@import "fcss/border/_radius";
 @import "fcss/display/_display";
 @import "fcss/display/_flexbox";
 @import "fcss/spacing/_margin";

@@ -3,10 +3,10 @@
 ////
 
 @mixin text_decoration($bp: null){
-    .td-none{ text-decoration: none; }
-    .td-underline{ text-decoration: underline; }
-    .td-overline{ text-decoration: overline; }
-    .td-strike{ text-decoration: line-through; }
+    .td-none#{$bp}{ text-decoration: none; }
+    .td-underline#{$bp}{ text-decoration: underline; }
+    .td-overline#{$bp}{ text-decoration: overline; }
+    .td-strike#{$bp}{ text-decoration: line-through; }
 }
 
 // Load the Margin Mixin
