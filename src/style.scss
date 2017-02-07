@@ -1,48 +1,48 @@
 ////
 // Global Configuration
 ////
-@import "fcss/__base";
+@import "sass/__base";
 
 ////
 // Tools
 // 
 // Mixins, functions and configs that generally dont produce output
 ////
-@import "fcss/tools/_clearfix";
-@import "fcss/tools/_breakpoint";
-@import "fcss/tools/_rem";
-@import "fcss/tools/_aspect-ratios";
+@import "sass/tools/_clearfix";
+@import "sass/tools/_breakpoint";
+@import "sass/tools/_rem";
+@import "sass/tools/_aspect-ratios";
 @import "node_modules/Gridtacular/src/_gridtacular";
-@import "fcss/tools/_grid";
-@import "fcss/tools/_responsive";
+@import "sass/tools/_grid";
+@import "sass/tools/_responsive";
 
 ////
 // Library/ Framework (who even knows which is which anymore)
 ////
 
-@import "fcss/color/_colors";
-@import "fcss/color/_tints";
-@import "fcss/background/_position";
-@import "fcss/background/_size";
-@import "fcss/background/_repeat";
-@import "fcss/border/_border";
-@import "fcss/border/_style";
-@import "fcss/border/_width";
-@import "fcss/border/_radius";
-@import "fcss/display/_display";
-@import "fcss/display/_flexbox";
-@import "fcss/spacing/_margin";
-@import "fcss/spacing/_padding";
-@import "fcss/size/_width";
-@import "fcss/size/_height";
-@import "fcss/type/_decoration";
-@import "fcss/type/_family";
-@import "fcss/type/_lists";
-@import "fcss/type/_sizes";
-@import "fcss/type/_style";
-@import "fcss/type/_transform";
-@import "fcss/type/_weight";
-@import "fcss/type/_line-height";
-@import "fcss/position/_position";
+@import "sass/color/_colors";
+@import "sass/color/_tints";
+@import "sass/background/_position";
+@import "sass/background/_size";
+@import "sass/background/_repeat";
+@import "sass/border/_border";
+@import "sass/border/_style";
+@import "sass/border/_width";
+@import "sass/border/_radius";
+@import "sass/display/_display";
+@import "sass/display/_flexbox";
+@import "sass/spacing/_margin";
+@import "sass/spacing/_padding";
+@import "sass/size/_width";
+@import "sass/size/_height";
+@import "sass/type/_decoration";
+@import "sass/type/_family";
+@import "sass/type/_lists";
+@import "sass/type/_sizes";
+@import "sass/type/_style";
+@import "sass/type/_transform";
+@import "sass/type/_weight";
+@import "sass/type/_line-height";
+@import "sass/position/_position";
 
-@import "fcss/defaults/_defaults";
+@import "sass/defaults/_defaults";
