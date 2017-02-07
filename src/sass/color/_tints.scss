@@ -26,12 +26,12 @@
 @include tints();
 
 // Load the Color Mixin at the medium media query breakpoint
-@include bp($m){
+/*@include bp($m){
     @include tints(-m);
 }
 
 // Load the Color Mixin at the large media query breakpoint
 @include bp($l){
     @include tints(-l);
-}
+}*/
 

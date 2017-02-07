@@ -70,12 +70,12 @@ $colors: (
 @include color($colors);
 
 // Load the Color Mixin at the medium media query breakpoint
-@include bp($m){
+/*@include bp($m){
     @include color($colors,-m);
 }
 
 // Load the Color Mixin at the large media query breakpoint
 @include bp($l){
     @include color($colors,-l);
-}
+}*/
 

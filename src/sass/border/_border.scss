@@ -16,10 +16,10 @@
 
     @include borders();
 
-    @include bp($m){
+    /*@include bp($m){
         @include borders(-m);
     }
 
     @include bp($l){
         @include borders(-l);
-    }
+    }*/

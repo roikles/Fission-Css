@@ -10,10 +10,10 @@
 
 @include border_radius();
 
-@include bp($m){
+/*@include bp($m){
     @include border_radius(-m);
 }
 
 @include bp($l){
     @include border_radius(-l);
-}
+}*/

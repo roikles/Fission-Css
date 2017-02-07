@@ -15,11 +15,11 @@
 
 @include bg_repeat();
 
-@include bp($m){
+/*@include bp($m){
     @include bg_repeat($m);
 }
 
 @include bp($l){
     @include bg_repeat($l);
-}
+}*/
 

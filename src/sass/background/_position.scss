@@ -19,10 +19,10 @@
 
 @include background_position(); 
 
-@include bp($m){
+/*@include bp($m){
     @include background_position(-m); 
 }
 
 @include bp($l){
     @include background_position(-l); 
-}
+}*/

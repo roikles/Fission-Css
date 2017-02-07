@@ -12,10 +12,10 @@
 
 @include border_style();
 
-@include bp($m){
+/*@include bp($m){
     @include border_style(-m);
 }
 
 @include bp($l){
     @include border_style(-l);
-}
+}*/

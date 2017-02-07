@@ -17,10 +17,10 @@ $bw4: rem(4);
 
 @include border_width();
 
-@include bp($m){
+/*@include bp($m){
     @include border_width(-m);
 }
 
 @include bp($l){
     @include border_width(-l);
-}
+}*/
