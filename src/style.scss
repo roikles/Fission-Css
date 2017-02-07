@@ -20,21 +20,34 @@
 // Library/ Framework (who even knows which is which anymore)
 ////
 
+// Colors
 @import "sass/color/_colors";
 @import "sass/color/_tints";
+
+//Background
 @import "sass/background/_position";
 @import "sass/background/_size";
 @import "sass/background/_repeat";
+
+// Border
 @import "sass/border/_border";
 @import "sass/border/_style";
 @import "sass/border/_width";
 @import "sass/border/_radius";
+
+// Display
 @import "sass/display/_display";
 @import "sass/display/_flexbox";
+
+// Spacing
 @import "sass/spacing/_margin";
 @import "sass/spacing/_padding";
+
+// Size
 @import "sass/size/_width";
 @import "sass/size/_height";
+
+// Typography
 @import "sass/type/_decoration";
 @import "sass/type/_family";
 @import "sass/type/_lists";
@@ -43,6 +56,10 @@
 @import "sass/type/_transform";
 @import "sass/type/_weight";
 @import "sass/type/_line-height";
+
+// Position
 @import "sass/position/_position";
 
+// Project defaults
+// This can be setup according to personal Preference
 @import "sass/defaults/_defaults";
