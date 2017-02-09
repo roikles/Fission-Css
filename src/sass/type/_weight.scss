@@ -2,12 +2,9 @@
 // Font Weights
 ////
 
-// Light
-.fw-l{ font-weight: 300; }
-// Medium
-.fw-m{ font-weight: 400; }
-// Semi Bold
-.fw-sb{ font-weight: 500; }
-// Bold
-.fw-b{ font-weight: 600; }
-
+@mixin font_weight($bp: null){
+    .fw-l#{$bp}{ font-weight: 300; }
+    .fw-m#{$bp}{ font-weight: 400; }
+    .fw-sb#{$bp}{ font-weight: 500; }
+    .fw-b#{$bp}{ font-weight: 600; } 
+}

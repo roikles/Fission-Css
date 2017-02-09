@@ -21,17 +21,3 @@
     .bg-darken-3{ background-image: linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)); }
     .bg-darken-4{ background-image: linear-gradient(rgba(0,0,0,0.80), rgba(0,0,0,0.80)); }
 }
-
-// Load the Color Mixin
-@include tints();
-
-// Load the Color Mixin at the medium media query breakpoint
-/*@include bp($m){
-    @include tints(-m);
-}
-
-// Load the Color Mixin at the large media query breakpoint
-@include bp($l){
-    @include tints(-l);
-}*/
-

@@ -1,0 +1,116 @@
+////
+// Media Queries
+// 
+// Fission routes all of its rules through this single
+// file to control which mixins are handled responsively.
+////
+
+////
+// Breakpoint definititions
+////
+
+$s: null null;
+$m: 800px null;
+$l: 1000px null;
+
+////
+// Global rules
+// 
+// based on the mobile first approach
+// the following rules apply to *ALL*
+// screen sizes but over overridable by suffixed
+// versions below that respond to media queries
+
+@include background_position(); 
+@include background_repeat();
+@include background_size();
+@include borders();
+@include border_radius();
+@include border_style();
+@include border_width();
+@include colors();
+@include tints();
+@include display();
+@include flexbox();
+@include hover();
+@include links();
+@include position();
+@include height();
+@include width();
+@include margin();
+@include padding();
+@include text_decoration();
+@include font_family();
+@include line_height();
+@include lists();
+@include font_size();
+@include text_transform();
+@include font_weight();
+
+////
+// Medium Screen Size
+// 
+// Suffix = '-m'
+////
+
+@include bp($m){
+    @include background_position(); 
+    @include background_repeat();
+    @include background_size();
+    @include borders();
+    @include border_radius();
+    @include border_style();
+    @include border_width();
+    @include colors();
+    @include tints();
+    @include display();
+    @include flexbox();
+    @include hover();
+    @include links();
+    @include position();
+    @include height();
+    @include width();
+    @include margin();
+    @include padding();
+    @include text_decoration();
+    @include font_family();
+    @include line_height();
+    @include lists();
+    @include font_size();
+    @include text_transform();
+    @include font_weight();
+}
+
+////
+// Large Screen Size
+// 
+// Suffix = '-l'
+////
+
+@include bp($l){
+    @include background_position(); 
+    @include background_repeat();
+    @include background_size();
+    @include borders();
+    @include border_radius();
+    @include border_style();
+    @include border_width();
+    @include colors();
+    @include tints();
+    @include display();
+    @include flexbox();
+    @include hover();
+    @include links();
+    @include position();
+    @include height();
+    @include width();
+    @include margin();
+    @include padding();
+    @include text_decoration();
+    @include font_family();
+    @include line_height();
+    @include lists();
+    @include font_size();
+    @include text_transform();
+    @include font_weight();
+}

@@ -16,23 +16,6 @@ $brand-grey: #ebedef;
 $brand-red: #f96869;
 $brand-blue: #062442;
 
-$colors: (
-    white: #fff,
-    grey: #ccc,
-    black: #000,
-    red: #ee3124,
-    orange: #ee6724,
-    yellow: #ecee24,
-    green: #5eba2c,
-    blue: #1486c7,
-    indigo: #273aad,
-    violet: #4c2cb3,
-    // Only for docs
-    brand-grey: $brand-grey,
-    brand-red: $brand-red,
-    brand-blue: $brand-blue
-);
-
 ////
 // Colors Mixin
 // 
@@ -42,7 +25,25 @@ $colors: (
 // breakpoint - this takes a variable for the breakpoint
 //              e.g. $m, $l
 ////
-@mixin color($colors: null,$bp: null){
+@mixin colors($bp: null){
+    
+    $colors: (
+        white: #fff,
+        grey: #ccc,
+        black: #000,
+        red: #ee3124,
+        orange: #ee6724,
+        yellow: #ecee24,
+        green: #5eba2c,
+        blue: #1486c7,
+        indigo: #273aad,
+        violet: #4c2cb3,
+        // Only for docs
+        brand-grey: $brand-grey,
+        brand-red: $brand-red,
+        brand-blue: $brand-blue
+    );
+
     @each $name, $clr in $colors{
         // Color
         .c-#{$name}#{$bp}{
@@ -64,18 +65,6 @@ $colors: (
             border-color: $clr;
         }
     }
+
+    // hover bg/fg colors? Worth thinking over
 }
-
-// Load the Color Mixin
-@include color($colors);
-
-// Load the Color Mixin at the medium media query breakpoint
-/*@include bp($m){
-    @include color($colors,-m);
-}
-
-// Load the Color Mixin at the large media query breakpoint
-@include bp($l){
-    @include color($colors,-l);
-}*/
-

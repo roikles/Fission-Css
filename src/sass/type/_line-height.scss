@@ -1,16 +1,10 @@
-@mixin borders($bp: null){
+////
+// Line Height
+////
+
+@mixin line_height($bp: null){
     .lh0{ line-height: 0; }
     .lh1{ line-height: 1; }
     .lh2{ line-height: 2; }
     .lh3{ line-height: 3; }
 }
-
-    @include borders();
-
-    @include bp($m){
-        @include borders(-m);
-    }
-
-    @include bp($l){
-        @include borders(-l);
-    }

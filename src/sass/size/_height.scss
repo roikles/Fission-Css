@@ -15,16 +15,6 @@
     .h4#{$bp}{ height: rem(120); }
     .h5#{$bp}{ height: rem(240); }
     .h6#{$bp}{ height: rem(360); }
-    // full height of container
+    // full height of relative container
     .h-full#{$bp}{ height: 100%; }
 }
-
-@include height();
-
-/*@include bp($m){
-    @include height(-m);
-}
-
-@include bp($l){
-    @include height(-l);
-}*/

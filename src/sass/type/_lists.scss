@@ -2,6 +2,8 @@
 // Lists
 ////
 
-.list{ list-style: none; }
-.list-bullet{ list-style: disc; }
-.list-inline{ display: flex; flex-direction: row; }
+@mixin lists($bp: null){
+    .list#{$bp}{ list-style: none; }
+    .list-bullet#{$bp}{ list-style: disc; }
+    .list-inline#{$bp}{ display: flex; flex-direction: row; }
+}

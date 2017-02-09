@@ -8,16 +8,3 @@
     .td-overline#{$bp}{ text-decoration: overline; }
     .td-strike#{$bp}{ text-decoration: line-through; }
 }
-
-// Load the Margin Mixin
-@include text_decoration();
-
-// Load the Margin Mixin at the medium media query breakpoint
-@include bp($m){
-    @include text_decoration(-m);
-}
-
-// Load the Margin Mixin at the large media query breakpoint
-@include bp($l){
-    @include text_decoration(-l);
-}

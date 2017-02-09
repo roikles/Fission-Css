@@ -4,28 +4,23 @@
 // Layout made easier(ish) with Flexbox
 ////
 
-
 @mixin flexbox($bp: null){
 
     // Flex 
-
     .fl#{$bp}{ display: flex; }
     .fl-init#{$bp}{ flex: 0 1 auto; } // same as flex: initial
     .fl-none#{$bp}{ flex: 0 0 auto; } //items sized according to width/height but inflexible.
 
     // Direction
-
     .fl-row#{$bp}{ flex-direction: row; }
     .fl-col#{$bp}{ flex-direction: column; }
 
     // Wrapping
-
     .fl-wrap#{$bp}{ flex-wrap: wrap; }
     .fl-nowrap#{$bp}{ flex-wrap: nowrap; }
     .fl-wrapreverse#{$bp}{ flex-wrap: wrap-reverse; } // class name is a bit long here
 
     // Child Item Alignment
-
     .fl-start#{$bp}{ align-items: flex-start; }
     .fl-end#{$bp}{ align-items: flex-end; }
     .fl-center#{$bp}{ align-items: center; }
@@ -35,7 +30,6 @@
     .fl-center-center#{$bp}{ justify-content: center; align-items: center; }
 
     // Self Alignment
-
     .fl-self-start#{$bp}{ align-self: flex-start; }
     .fl-self-end#{$bp}{ align-self: flex-end; }
     .fl-self-center#{$bp}{ align-self: center; }
@@ -43,12 +37,10 @@
     .fl-self-stretch#{$bp}{ align-self: stretch; }
 
     // Self grow/shrink
-
     .fl-self-grow{ flex-grow: 1; }
     .fl-self-shrink{ flex-shrink: 1; }
 
     // Justify
-
     .fl-justify-start#{$bp}{ justify-content: start; }
     .fl-justify-end#{$bp}{ justify-content: end; }
     .fl-justify-center#{$bp}{ justify-content: center; }
@@ -56,7 +48,6 @@
     .fl-justify-around#{$bp}{ justify-content: space-around; }
 
     // Align content along the vertical axis (need to test how this is afffected by flex direction)
-
     .fl-content-start#{$bp}{ align-content: flex-start; }
     .fl-content-end#{$bp}{ align-content: flex-end; }
     .fl-content-center#{$bp}{ align-content: center; }
@@ -84,7 +75,6 @@
     .fl-order-last#{$bp}{ order: 999999; }
 
     // Flex Basis
-
     .fl-10#{$bp}{ flex-basis: 10%; max-width: 10%; }
     .fl-20#{$bp}{ flex-basis: 20%; max-width: 20%; }
     .fl-quarter#{$bp}{ flex-basis: 25%; max-width: 25%; }
@@ -99,20 +89,4 @@
     .fl-80#{$bp}{ flex-basis: 80%; max-width: 80%; }
     .fl-90#{$bp}{ flex-basis: 90%; max-width: 90%; }
     .fl-100#{$bp}{ flex-basis: 100%; max-width: 100%; }
-
 }
-
-// Load the Flexbox Mixin
-@include flexbox();
-
-// Load the Flexbox Mixin at the medium media query breakpoint
-@include bp($m){
-    @include flexbox(-m);
-}
-
-// Load the Flexbox Mixin at the large media query breakpoint
-@include bp($l){
-    @include flexbox(-l);
-}
-
-

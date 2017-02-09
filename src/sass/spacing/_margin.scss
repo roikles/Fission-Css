@@ -11,26 +11,15 @@
 // - y = top and bottom
 ////
 
-////
-// Temporary variables
-// 
-// Will be replaced once the framework has matured
-////
-$m0: 0;
-$m1: 0.5rem;
-$m2: 1rem;
-$m3: 2rem;
-$m4: 3rem;
-$m5: 4rem;
-
-////
-// Margin Mixin
-// All rules are set with a mixin so that this file
-// is kept to a minimul size
-// 
-// $bp =  breakpoint suffix. e.g. '-m' or '-l'
-////
 @mixin margin($bp: null){
+
+    $m0: 0;
+    $m1: 0.5rem;
+    $m2: 1rem;
+    $m3: 2rem;
+    $m4: 3rem;
+    $m5: 4rem;
+
     // Margin
     .m0#{$bp}{ margin: $m0; }
     .m1#{$bp}{ margin: $m1; }
@@ -92,17 +81,4 @@ $m5: 4rem;
     .mxauto{ margin-left: auto; margin-right: auto; }
     .mlauto{ margin-left: auto; }
     .mrauto{ margin-right: auto; }
-}
-
-// Load the Margin Mixin
-@include margin();
-
-// Load the Margin Mixin at the medium media query breakpoint
-@include bp($m){
-    @include margin(-m);
-}
-
-// Load the Margin Mixin at the large media query breakpoint
-@include bp($l){
-    @include margin(-l);
 }

@@ -4,22 +4,10 @@
 
 @mixin borders($bp: null){
     .bd#{$bp}{ border-width: rem(1); border-style: solid; }
-
     .bd-t#{$bp}{ border-top-width: rem(1);    border-top-style: solid; }
     .bd-r#{$bp}{ border-right-width: rem(1);  border-right-style: solid; }
     .bd-b#{$bp}{ border-bottom-width: rem(1); border-bottom-style: solid; }
     .bd-l#{$bp}{ border-left-width: rem(1);   border-left-style: solid; }
-
     .bd-x#{$bp}{ border-left-width: rem(1); border-left-style: solid; border-right-width: rem(1); border-right-style: solid; }
     .bd-y#{$bp}{ border-top-width: rem(1); border-top-style: solid; border-bottom-width: rem(1); border-bottom-style: solid; }
 }
-
-    @include borders();
-
-    /*@include bp($m){
-        @include borders(-m);
-    }
-
-    @include bp($l){
-        @include borders(-l);
-    }*/

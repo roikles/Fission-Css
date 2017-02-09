@@ -7,13 +7,3 @@
     .bd-rad2#{$bp}{ border-radius: 1rem; }
     .bd-rad-circle#{$bp}{ border-radius: 50%; }
 }
-
-@include border_radius();
-
-/*@include bp($m){
-    @include border_radius(-m);
-}
-
-@include bp($l){
-    @include border_radius(-l);
-}*/

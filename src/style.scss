@@ -1,7 +1,6 @@
 ////
-// Global Configuration
+// Configuration
 ////
-@import "sass/__base";
 
 ////
 // Tools
@@ -12,14 +11,13 @@
 @import "sass/tools/_breakpoint";
 @import "sass/tools/_rem";
 @import "sass/tools/_aspect-ratios";
-@import "node_modules/Gridtacular/src/_gridtacular";
-@import "sass/tools/_grid";
 @import "sass/tools/_responsive";
 
 ////
 // Library/ Framework (who even knows which is which anymore)
 ////
 
+@import "sass/defaults/_defaults";
 @import "sass/color/_colors";
 @import "sass/color/_tints";
 @import "sass/background/_position";
@@ -31,6 +29,8 @@
 @import "sass/border/_radius";
 @import "sass/display/_display";
 @import "sass/display/_flexbox";
+@import "sass/hover/_hover";
+@import "sass/links/_links";
 @import "sass/spacing/_margin";
 @import "sass/spacing/_padding";
 @import "sass/size/_width";
@@ -45,4 +45,6 @@
 @import "sass/type/_line-height";
 @import "sass/position/_position";
 
-@import "sass/defaults/_defaults";
+
+// Media Queries
+@import "sass/_media-queries";
