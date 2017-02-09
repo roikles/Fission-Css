@@ -6,20 +6,9 @@
 // - 
 ////
 
-@mixin bg_repeat($bp: null){
+@mixin background_repeat($bp: null){
     .bgr-r#{$bp}{ background-repeat: repeat; }
     .bgr-nr#{$bp}{ background-repeat: no-repeat; }
     .bgr-x#{$bp}{ background-repeat: repeat-x; }
     .bgr-y#{$bp}{ background-repeat: repeat-y; }
 }
-
-@include bg_repeat();
-
-/*@include bp($m){
-    @include bg_repeat($m);
-}
-
-@include bp($l){
-    @include bg_repeat($l);
-}*/
-

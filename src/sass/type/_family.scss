@@ -4,6 +4,8 @@
 // All font-family declarations
 ////
 
-.ff-mono{ font-family: 'Space Mono', monospace; }
-.ff-serif{ font-family: 'Cormorant Garamond', serif; }
-.ff-sans{ font-family: 'Lato', sans-serif; }
+@mixin font_family($bp: null){
+    .ff-mono#{$bp}{ font-family: 'Space Mono', monospace; }
+    .ff-serif#{$bp}{ font-family: 'Cormorant Garamond', serif; }
+    .ff-sans#{$bp}{ font-family: 'Lato', sans-serif; }
+}

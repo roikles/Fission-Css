@@ -12,16 +12,3 @@
     .fs2#{$bp}{ font-size: rem(12); }
     .fs1#{$bp}{ font-size: rem(8); }
 }
-
-// Load the Margin Mixin
-@include font_size();
-
-// Load the Margin Mixin at the medium media query breakpoint
-@include bp($m){
-    @include font_size(-m);
-}
-
-// Load the Margin Mixin at the large media query breakpoint
-@include bp($l){
-    @include font_size(-l);
-}

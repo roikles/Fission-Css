@@ -11,26 +11,15 @@
 // - y = top and bottom
 ////
 
-////
-// Temporary variables
-// 
-// Will be replaced once the framework has matured
-////
-$p0: 0;
-$p1: 0.5rem;
-$p2: 1rem;
-$p3: 2rem;
-$p4: 3rem;
-$p5: 4rem;
-
-////
-// Padding Mixin
-// All rules are set with a mixin so that this file
-// is kept to a minimul size
-// 
-// $bp =  breakpoint suffix. e.g. '-m' or '-l'
-////
 @mixin padding($bp: null){
+
+    $p0: 0;
+    $p1: 0.5rem;
+    $p2: 1rem;
+    $p3: 2rem;
+    $p4: 3rem;
+    $p5: 4rem;
+
     // Padding
     .p0#{$bp}{ padding: $p0; }
     .p1#{$bp}{ padding: $p1; }
@@ -87,17 +76,4 @@ $p5: 4rem;
     .py3#{$bp}{ padding-top: $p3; padding-bottom: $p3; }
     .py4#{$bp}{ padding-top: $p4; padding-bottom: $p4; }
     .py5#{$bp}{ padding-top: $p5; padding-bottom: $p5; }
-}
-
-// Load the padding Mixin
-@include padding();
-
-// Load the padding Mixin at the medium media query breakpoint
-@include bp($m){
-    @include padding(-m);
-}
-
-// Load the padding Mixin at the large media query breakpoint
-@include bp($l){
-    @include padding(-l);
 }

@@ -2,7 +2,9 @@
 // Position
 ////
 
-.pos-st{ position: static; }
-.pos-rel{ position: relative; }
-.pos-abs{ position: absolute; }
-.pos-fxd{ position: fixed; }
+@mixin position($bp: null){
+    .pos-st#{$bp}{ position: static; }
+    .pos-rel#{$bp}{ position: relative; }
+    .pos-abs#{$bp}{ position: absolute; }
+    .pos-fxd#{$bp}{ position: fixed; }
+}

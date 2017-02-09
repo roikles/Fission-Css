@@ -4,9 +4,10 @@
   "description": "Watch sass,js and deploy",
   "author": "Rory Ashford <rory@roikles.com>",
   "scripts": {
+    "gzip":"echo 'style.css' && gzip-size src/style.css && echo 'style.css' && gzip-size src/style.min.css",
     "sass:css": "node-sass src/style.scss src/style.css --output-style compact",
     "sass:cssnano": "cssnano src/style.css src/style.min.css --no-convertValues",
-    "sass": "npm run sass:css && npm run sass:cssnano",
+    "sass": "npm run sass:css && npm run sass:cssnano && npm run gzip",
     "watch:sass": "fsmonitor -d src -q '+*.scss' npm run sass",
     "browsersync": "browser-sync start --files 'src/*, !/**/*.scss, !.git/*, src/**/*' --no-open --proxy localhost/fissioncss",
     "watch": "npm run -s browsersync & npm run -s watch:sass"
@@ -18,6 +19,7 @@
     "node-sass": "^3.4.2"
   },
   "dependencies": {
-    "Gridtacular": "^2.0.3"
+    "Gridtacular": "^2.0.3",
+    "gzip-size-cli": "^2.0.0"
   }
 }

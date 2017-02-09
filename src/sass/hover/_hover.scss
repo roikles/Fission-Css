@@ -1,0 +1,14 @@
+////
+// Hover styles and Effects
+////
+
+@mixin hover($bp: null){
+    .hov-bold#{$bp}:hover{ font-weight: bold; }
+    .hov-out#{$bp}:hover{ opacity: 0.75; transition: opacity 0.25s}
+    .hov-in#{$bp}{ opacity: 0.75;  transition: opacity 0.25s}
+    .hov-in#{$bp}:hover{ opacity: 1; }
+    .hov-grow#{$bp}{transition: all .2s ease-in-out;}
+    .hov-grow#{$bp}:hover{ transform: scale(1.2); }
+    .hov-shrink#{$bp}{transition: all .2s ease-in-out;}
+    .hov-shrink#{$bp}:hover{ transform: scale(0.8); }
+}

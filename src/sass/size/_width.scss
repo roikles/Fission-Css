@@ -6,7 +6,7 @@
 // Class prefix for width = .w
 ////
 
-@mixin width_percentage($bp: null){
+@mixin width($bp: null){
     
     .w1#{$bp}{ width: rem(24); }
     .w2#{$bp}{ width: rem(48); }
@@ -14,9 +14,8 @@
     .w4#{$bp}{ width: rem(120); }
     .w5#{$bp}{ width: rem(240); }
     .w6#{$bp}{ width: rem(360); }
-    // full width of container
-    .w-full#{$bp}{ width: 100%; }
-    // Percentages (dont particularly like the syntax
+
+    // Percentages (I dont particularly like the syntax)
     .w-10#{$bp}{ width: 10%; }
     .w-20#{$bp}{ width: 20%; }
     .w-25#{$bp}{ width: 25%; }
@@ -29,14 +28,4 @@
     .w-80#{$bp}{ width: 80%; }
     .w-90#{$bp}{ width: 90%; }
     .w-100#{$bp}{ width: 100%; }
-}
-
-@include width_percentage();
-
-@include bp($m){
-    @include width_percentage(-m);
-}
-
-@include bp($l){
-    @include width_percentage(-l);
 }

@@ -4,10 +4,12 @@
 // Display attributes are defined here
 ////
 
-.d-in{ display: inline; }
-.d-b{ display: block; }
-.d-inb{ display: inline-block; }
-.d-t{ display: table; }
-.d-tc{ display: table-cell; }
+@mixin display($bp: null){
+    .d-in#{$bp: null}{ display: inline; }
+    .d-b#{$bp: null}{ display: block; }
+    .d-inb#{$bp: null}{ display: inline-block; }
+    .d-t#{$bp: null}{ display: table; }
+    .d-tc#{$bp: null}{ display: table-cell; }
+}
 
 // flex property has its own file
