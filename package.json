@@ -4,7 +4,7 @@
   "description": "Watch sass,js and deploy",
   "author": "Rory Ashford <rory@roikles.com>",
   "scripts": {
-    "gzip":"echo 'style.css' && gzip-size src/style.css && echo 'style.css' && gzip-size src/style.min.css",
+    "gzip":"echo 'style.css' && gzip-size src/style.css && echo 'style.min.css' && gzip-size src/style.min.css",
     "sass:css": "node-sass src/style.scss src/style.css --output-style compact",
     "sass:cssnano": "cssnano src/style.css src/style.min.css --no-convertValues",
     "sass": "npm run sass:css && npm run sass:cssnano && npm run gzip",
