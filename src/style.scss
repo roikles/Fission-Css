@@ -1,7 +1,6 @@
 ////
 // Global Configuration
 ////
-@import "sass/__base";
 
 ////
 // Tools
@@ -12,8 +11,6 @@
 @import "sass/tools/_breakpoint";
 @import "sass/tools/_rem";
 @import "sass/tools/_aspect-ratios";
-@import "node_modules/Gridtacular/src/_gridtacular";
-@import "sass/tools/_grid";
 @import "sass/tools/_responsive";
 
 ////
@@ -39,6 +36,13 @@
 @import "sass/display/_display";
 @import "sass/display/_flexbox";
 
+// Hover
+@import "sass/hover/_hover";
+
+// Links
+@import "sass/links/_links";
+
+
 // Spacing
 @import "sass/spacing/_margin";
 @import "sass/spacing/_padding";
@@ -63,3 +67,6 @@
 // Project defaults
 // This can be setup according to personal Preference
 @import "sass/defaults/_defaults";
+
+
+@import "sass/_media-queries";
