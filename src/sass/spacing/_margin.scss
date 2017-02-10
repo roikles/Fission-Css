@@ -78,7 +78,7 @@
     .my5#{$bp}{ margin-top: $m5; margin-bottom: $m0; }
 
     // Auto Margins
-    .mxauto{ margin-left: auto; margin-right: auto; }
-    .mlauto{ margin-left: auto; }
-    .mrauto{ margin-right: auto; }
+    .mx-auto#{$bp}{ margin-left: auto; margin-right: auto; }
+    .ml-auto#{$bp}{ margin-left: auto; }
+    .mr-auto#{$bp}{ margin-right: auto; }
 }

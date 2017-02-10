@@ -7,12 +7,12 @@
 
 @mixin background_position($bp: null){
     .bgp-lt#{$bp}{ background-position: left top; }
-    .bgp-lc{ background-position: left center; }
-    .bgp-lb{ background-position: left bottom; }
-    .bgp-rt{ background-position: right top; }
-    .bgp-rc{ background-position: right center; }
-    .bgp-rb{ background-position: right bottom; }
-    .bgp-ct{ background-position: center top; }
-    .bgp-cc{ background-position: center center; }
-    .bgp-cb{ background-position: center bottom; }
+    .bgp-lc#{$bp}{ background-position: left center; }
+    .bgp-lb#{$bp}{ background-position: left bottom; }
+    .bgp-rt#{$bp}{ background-position: right top; }
+    .bgp-rc#{$bp}{ background-position: right center; }
+    .bgp-rb#{$bp}{ background-position: right bottom; }
+    .bgp-ct#{$bp}{ background-position: center top; }
+    .bgp-cc#{$bp}{ background-position: center center; }
+    .bgp-cb#{$bp}{ background-position: center bottom; }
 }

@@ -1,7 +1,7 @@
 {
-  "name": "FlexbonesBuild",
-  "version": "5.0.0",
-  "description": "Watch sass,js and deploy",
+  "name": "FissionCss",
+  "version": "0.1.0",
+  "description": "Compile Sass",
   "author": "Rory Ashford <rory@roikles.com>",
   "scripts": {
     "gzip":"echo 'style.css' && gzip-size src/style.css && echo 'style.min.css' && gzip-size src/style.min.css",

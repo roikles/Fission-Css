@@ -5,7 +5,6 @@
 ////
 
 @mixin flexbox($bp: null){
-
     // Flex 
     .fl#{$bp}{ display: flex; }
     .fl-init#{$bp}{ flex: 0 1 auto; } // same as flex: initial

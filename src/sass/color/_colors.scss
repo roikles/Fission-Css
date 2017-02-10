@@ -12,9 +12,16 @@
 ////
 
 // Brand colors
-$brand-grey: #ebedef;
+/*$brand-grey: #F0F4F7;
 $brand-red: #f96869;
-$brand-blue: #062442;
+$brand-blue: #062442;*/
+
+// New colours
+
+$brand-grey: #E9F0F0;
+$brand-navy: #15355A;
+$brand-blue: #17BDEF;
+$brand-purple: #613CC6;
 
 ////
 // Colors Mixin
@@ -39,9 +46,11 @@ $brand-blue: #062442;
         indigo: #273aad,
         violet: #4c2cb3,
         // Only for docs
+        
         brand-grey: $brand-grey,
-        brand-red: $brand-red,
-        brand-blue: $brand-blue
+        brand-blue: $brand-blue,
+        brand-navy: $brand-navy,
+        brand-purple: $brand-purple,
     );
 
     @each $name, $clr in $colors{
