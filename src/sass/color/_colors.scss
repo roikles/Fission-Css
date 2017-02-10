@@ -45,12 +45,12 @@ $brand-purple: #613CC6;
         blue: #1486c7,
         indigo: #273aad,
         violet: #4c2cb3,
+
         // Only for docs
-        
         brand-grey: $brand-grey,
         brand-blue: $brand-blue,
         brand-navy: $brand-navy,
-        brand-purple: $brand-purple,
+        brand-purple: $brand-purple
     );
 
     @each $name, $clr in $colors{
